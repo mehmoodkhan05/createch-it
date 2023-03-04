@@ -4,46 +4,31 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-        <nav className="navbar navbar-expand-lg bg-light">
-            <div className="container">
-                <a className="navbar-brand" href="#">
-                    Navbar
-                </a>
-                <button
-                    className="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span className="navbar-toggler-icon"></span>
-                </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav ms-auto">
-                        <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="#">
-                            Home
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">
-                            Features
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">
-                            Pricing
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link">Disabled</a>
-                        </li>
-                    </ul>
+        <div className="container">
+            <div className="row">
+                <div className="col-md-6 header-wraper">
+                    <h1><b>Creative Solutions</b><br /> for your Complex Ideas!</h1>
+                    <p>Bringing people together under your brand, with your content,<br />
+                        events, and courses all available on the web and mobile apps<br />
+                        is the future of business.
+                    </p>
+                    <div className="row header-2ndR">
+                        <div className="col-md-6">
+                            <h1><b>300+</b></h1>
+                            <p>Successful Projects</p>
+                        </div>
+                        <div className="col-md-6">
+                            <h1><b>150+</b></h1>
+                            <p>Satisfied Customers</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-md-6 position-relative">
+                    <img src="./src/assets/images/header.png" className="header-image" alt="image" />
+                    <img src="./src/assets/images/header-image-top.png" className="position-absolute header-image-top" alt="" />
                 </div>
             </div>
-        </nav>
+        </div>
     </>
   );
 };

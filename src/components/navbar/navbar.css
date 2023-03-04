@@ -1,0 +1,18 @@
+ul li a {
+    margin-right: 15px;
+    font-size: 15px;
+}
+
+.header-btn {
+    margin-right: 20px;
+    border: none;
+    background: linear-gradient(225deg, #8BC5CB 47.4%, #51A8B1 100%);
+    border-radius: 100px;
+    width: 130px;
+    font-size: 13px;
+}
+
+.search-icon {
+    cursor: pointer;
+    margin-right: 25px;
+}

@@ -1,0 +1,58 @@
+.header-wraper h1 {
+    margin-top: 150px;
+    text-align: left;
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 42px;
+}
+
+.header-wraper p {
+    text-align: justify;
+    margin-top: 25px;
+    font-size: 15px;
+}
+
+.header-image {
+    width: 550px;
+    height: 600px;
+}
+
+.header-image-top {
+    right: 450px;
+    top: 55px;
+    max-height: 50px;
+}
+
+.header-2ndR h1 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.header-2ndR p {
+    margin-top: -10px;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-image {
+        margin-top: 100px;
+    }
+
+    .header-image-top {
+        left: 90px;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header-image {
+        margin-top: 80px;
+    }
+
+    .header-image-top {
+        left: 90px;
+        top: 100px;
+    }
+}
