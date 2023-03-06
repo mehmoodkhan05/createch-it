@@ -35,6 +35,16 @@
     font-size: 12px;
 }
 
+.header-image-side {
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 100px;
+    z-index: -1;
+    overflow-x: hidden;
+}
+
+
 @media only screen and (max-width: 768px) {
     .header-image {
         margin-top: 100px;

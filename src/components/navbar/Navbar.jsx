@@ -1,7 +1,7 @@
 import React from 'react'
 import "./navbar.css"
 
-const Navbar = () => {
+const Navbar = (props) => {
   return (
     <>
         <nav className="navbar navbar-expand-lg">
@@ -24,27 +24,27 @@ const Navbar = () => {
                     <ul className="navbar-nav ms-auto">
                         <li className="nav-item">
                             <a className="nav-link" aria-current="page" href="#">
-                                Home
+                                {props.home}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                About
+                                {props.about}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Portfolio
+                                {props.portfolio}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Testimonials
+                                {props.testimonials}
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Contact
+                                {props.contact}
                             </a>
                         </li>
                         

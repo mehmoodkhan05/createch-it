@@ -6,7 +6,7 @@ const Header = () => {
     <>
         <div className="container">
             <div className="row">
-                <div className="col-md-6 header-wraper">
+                <div className="col-lg-6 header-wraper order-2 order-lg-1">
                     <h1><b>Creative Solutions</b><br /> for your Complex Ideas!</h1>
                     <p>Bringing people together under your brand, with your content,<br />
                         events, and courses all available on the web and mobile apps<br />
@@ -23,9 +23,9 @@ const Header = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-md-6 position-relative">
+                <div className="col-lg-6 order-1 order-lg-2 position-relative">
                     <img src="./src/assets/images/header.png" className="header-image" alt="image" />
-                    <img src="./src/assets/images/header-image-top.png" className="position-absolute header-image-top" alt="" />
+                    <img src="./src/assets/images/header-image-side.png" className="header-image-side" alt="" />
                 </div>
             </div>
         </div>
