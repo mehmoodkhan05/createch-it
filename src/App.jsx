@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/navbar/Navbar";
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
+import About from "./components/aboutUs/About";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         contact="Contact"
       />
       <Header />
-      
+      <About />
       <Footer />
     </>
   );
