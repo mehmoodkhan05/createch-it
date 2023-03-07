@@ -1,3 +1,7 @@
+header.main-header {
+    background: linear-gradient(180deg, #F5F5F5 114.57%, rgba(255, 255, 255, 0) 186.33%);
+}
+
 .header-wraper h1 {
     margin-top: 150px;
     text-align: left;
@@ -15,14 +19,12 @@
 }
 
 .header-image {
-    width: 550px;
+    width: 600px;
     height: 600px;
 }
 
-.header-image-top {
-    right: 450px;
-    top: 55px;
-    max-height: 50px;
+.header-2ndR {
+    display: flex;
 }
 
 .header-2ndR h1 {
@@ -37,8 +39,8 @@
 
 .header-image-side {
     position: absolute;
-    right: 0px;
-    top: 0;
+    right: -110px;
+    top: -65px;
     width: 100px;
     z-index: -1;
     overflow-x: hidden;
@@ -49,20 +51,10 @@
     .header-image {
         margin-top: 100px;
     }
-
-    .header-image-top {
-        left: 90px;
-        top: 100px;
-    }
 }
 
 @media only screen and (max-width: 1024px) {
     .header-image {
         margin-top: 80px;
-    }
-
-    .header-image-top {
-        left: 90px;
-        top: 100px;
     }
 }

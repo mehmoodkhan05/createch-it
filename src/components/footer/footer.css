@@ -1,0 +1,53 @@
+footer.main-footer {
+    background-image: url(./src/assets/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer .footer-logo {
+    width: 150px;
+    height: 125px;
+}
+
+footer h4 {
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer span {
+    display: block;
+}
+
+footer p {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-top: 15px;
+    margin: 0;
+    text-align: justify;
+}
+
+footer span a {
+    text-decoration: none;
+    color: #666464;
+    line-height: 30px;
+    font-size: 14px
+}
+
+footer .footer-icon {
+    color: #52658C;
+    border: 1px solid;
+    border-radius: 25px;
+    padding: 6px;
+    font-size: 30px;
+}
+
+footer .footer-copyright {
+    margin-top: 180px;
+}
