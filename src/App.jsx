@@ -15,6 +15,7 @@ function App() {
         contact="Contact"
       />
       <Header />
+      
       <Footer />
     </>
   );
