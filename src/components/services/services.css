@@ -1,0 +1,42 @@
+section.services-section .card {
+    background: linear-gradient(256.52deg, rgba(168, 208, 230, 0.1) 0%, rgba(62, 163, 183, 0.1) 100%);
+    border-radius: 10px;
+    padding-left: 15px;
+    border: none;
+}
+
+section.services-section h1 {
+    position: absolute;
+    width: 100%;
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    opacity: 0.04;
+    font-size: 140px;
+    margin-left: 150px;
+    margin-top: -65px;
+}
+
+
+section.services-section h2 {
+    font-size: 35px;
+    margin-top: 100px;
+}
+
+section.services-section .card .card-title {
+    font-size: 16px;
+    padding-top: 50px;
+}
+
+section.services-section .card p {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+section.services-section .card .card-body a {
+    color: #51A8B1;
+    font-size: 14px;
+    margin-top: 30px;
+    display: block;
+}

@@ -1,8 +1,19 @@
 section.main-section {
-    background-image: url(./src/assets/vector.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: linear-gradient(225deg, #95b3b8 47.4%, #d0d9da 100%);
 }
+
+section.main-section h1 {
+    position: absolute;
+    opacity: 0.04;
+    background: linear-gradient(213.9deg, #52658C 0%, #13c3d6 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 140px;
+    padding-top: 30px;
+    /* text-fill-color: transparent; */
+}
+
 
 section.main-section h2 {
     font-size: 35px;
@@ -19,7 +30,7 @@ section.main-section .main-section-PRG-2 {
     font-size: 15px;
 }
 
-section .main-section-btn {
+section.main-section .main-section-btn {
     border-radius: 100px;
     padding: 5px;
     padding-left: 25px;

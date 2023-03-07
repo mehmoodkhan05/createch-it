@@ -7,6 +7,7 @@ const About = () => {
     <>
         <section className="main-section">
             <div className="container text-center">
+                <h1>About Us</h1>
                 <h2>Why Choose Us</h2>
                 <div className="main-section-PRG-1 mt-5"> 
                     <p>
