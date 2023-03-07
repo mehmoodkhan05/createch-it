@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -10,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="main-footer pt-2 pb-5">
+      <footer className="main-footer pb-3">
           <div className="container">
             <div className="row">
               <div className="col-xl-2 mt-5">

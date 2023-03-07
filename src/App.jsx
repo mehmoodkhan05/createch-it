@@ -14,9 +14,7 @@ function App() {
         testimonials="Testimonials"
         contact="Contact"
       />
-      <main>
-        <Header />
-      </main>
+      <Header />
       <Footer />
     </>
   );

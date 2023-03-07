@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-        <section className="main-header">
+        <header className="main-header ">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 header-wraper order-2 order-lg-1">
@@ -30,7 +30,7 @@ const Header = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
     </>
   );
 };
