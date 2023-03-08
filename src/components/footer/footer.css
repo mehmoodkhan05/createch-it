@@ -5,11 +5,6 @@ footer.main-footer {
     background-position: center;
 }
 
-footer .footer-logo {
-    width: 150px;
-    height: 125px;
-}
-
 footer h4 {
     background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
     -webkit-background-clip: text;

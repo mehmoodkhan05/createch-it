@@ -6,10 +6,10 @@ const Services = () => {
     <>
         <section className="services-section">
             <div className="container mb-5">
-                <h1 className="text-center">Services</h1>
+                <h1 className="text-md-end text-start w-75">Services</h1>
                 <h2 className="text-center">What we do</h2>
                 <div className="row">
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">Domain & Hosting Management</h5>
@@ -20,7 +20,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">Website Maintenance</h5>
@@ -31,7 +31,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">Website Customization.</h5>
@@ -42,7 +42,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">Website Consultating</h5>
@@ -53,7 +53,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">UI/UX Design</h5>
@@ -64,7 +64,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
+                    <div className="col-md-4 col-sm-6 col-12">
                         <div className="card">
                             <div className="card-body">
                                 <h5 className="card-title fw-bold">Mobile Applications</h5>

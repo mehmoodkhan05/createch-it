@@ -36,3 +36,11 @@ section.main-section .main-section-btn {
     border: none;
     background: linear-gradient(225deg, #78afb6 47.4%, #a7dadf 100%);
 }
+
+@media only screen and (max-width: 425px) {
+    section.main-section h1 {
+        font-size: 65px;
+        margin-top: 50px;
+    }
+
+}
