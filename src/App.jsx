@@ -17,8 +17,10 @@ function App() {
         contact="Contact"
       />
       <Header />
-      <About />
-      <Services />
+      <main>
+        <About />
+        <Services />
+      </main>
       <Footer />
     </>
   );
