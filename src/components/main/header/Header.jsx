@@ -26,7 +26,6 @@ const Header = () => {
                     </div>
                     <div className="col-lg-6 order-1 order-lg-2">
                         <img src="./src/assets/images/header.png" className="header-image" alt="image" />
-                        {/* <img src="./src/assets/images/header-image-side.png" className="header-image-side" alt="" /> */}
                     </div>
                 </div>
             </div>

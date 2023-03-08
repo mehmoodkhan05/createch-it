@@ -8,7 +8,7 @@ const Services = () => {
             <div className="container mb-5">
                 <h1 className="text-center">Services</h1>
                 <h2 className="text-center">What we do</h2>
-                <div className="row justify-content-evenly">
+                <div className="row">
                     <div className="col-md-4">
                         <div className="card">
                             <div className="card-body">

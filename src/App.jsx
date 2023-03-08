@@ -1,10 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/navbar/Navbar";
-import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
-import About from "./components/aboutUs/About";
-import Services from "./components/services/Services";
+import Main from "./components/main/Main";
 
 function App() {
   return (
@@ -16,11 +14,7 @@ function App() {
         testimonials="Testimonials"
         contact="Contact"
       />
-      <Header />
-      <main>
-        <About />
-        <Services />
-      </main>
+      <Main />
       <Footer />
     </>
   );

@@ -1,0 +1,28 @@
+section.portfolio-section h1 {
+    position: absolute;
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    opacity: 0.04;
+    font-size: 160px;
+    margin-top: -120px;
+}
+
+section.portfolio-section h2 {
+    font-size: 34px;
+    margin-top: 200px;
+}
+
+section.portfolio-section .portfolio-btn {
+    color: #F5F5F5;
+    font-size: 14px;
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    border-radius: 100px;
+    border: none;
+}
+
+section.portfolio-section .portfolio-btn-div {
+    margin-top: 150px;
+}

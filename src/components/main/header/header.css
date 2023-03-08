@@ -37,16 +37,6 @@ header.main-header {
     font-size: 12px;
 }
 
-.header-image-side {
-    position: absolute;
-    right: -110px;
-    top: -65px;
-    width: 100px;
-    z-index: -1;
-    overflow-x: hidden;
-}
-
-
 @media only screen and (max-width: 768px) {
     .header-image {
         margin-top: 100px;

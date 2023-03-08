@@ -32,8 +32,7 @@ section.main-section .main-section-PRG-2 {
 
 section.main-section .main-section-btn {
     border-radius: 100px;
-    padding: 5px;
-    padding-left: 25px;
+    color: #F5F5F5;
     border: none;
-    background: linear-gradient(225deg, #8BC5CB 47.4%, #51A8B1 100%);
+    background: linear-gradient(225deg, #78afb6 47.4%, #a7dadf 100%);
 }

@@ -16,3 +16,12 @@ ul li a {
     cursor: pointer;
     margin-right: 15px;
 }
+
+.header-image-side {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    z-index: 0;
+    overflow-x: hidden;
+}

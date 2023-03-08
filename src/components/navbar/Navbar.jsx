@@ -5,6 +5,7 @@ const Navbar = (props) => {
   return (
     <>
         <nav className="navbar navbar-expand-lg">
+            <img src="./src/assets/images/header-image-side.png" className="header-image-side" alt="" />
             <div className="container">
                 <a className="navbar-brand header-logo" href="#">
                     <img src="./src/assets/images/CreatechitLogo.png" alt="Logo" />
