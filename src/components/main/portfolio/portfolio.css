@@ -1,3 +1,8 @@
+section.portfolio-section {
+    margin-top: 180px;
+}
+
+
 section.portfolio-section h1 {
     position: absolute;
     background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
@@ -7,12 +12,12 @@ section.portfolio-section h1 {
     /* text-fill-color: transparent; */
     opacity: 0.04;
     font-size: 160px;
-    margin-top: -120px;
+    top: -110px;
+    left: 105px;
 }
 
 section.portfolio-section h2 {
     font-size: 34px;
-    margin-top: 200px;
 }
 
 section.portfolio-section .portfolio-btn {
@@ -32,6 +37,19 @@ section.portfolio-section .portfolio-btn-div {
         font-size: 50px;
         margin-top: -13px;
         margin-left: 47px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    section.portfolio-section h1 {
+        font-size: 140px;
+        margin: 0;
+        top: -75px;
+    }
+
+    section.portfolio-section {
+        padding-top: 150px;
     }
 
 }

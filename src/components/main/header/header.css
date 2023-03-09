@@ -3,7 +3,7 @@ header.main-header {
 }
 
 .header-wraper h1 {
-    margin-top: 150px;
+    /* margin-top: 150px; */
     text-align: left;
     background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
     -webkit-background-clip: text;
@@ -43,6 +43,7 @@ header.main-header {
 @media only screen and (max-width: 768px) {
     .header-image {
         margin-top: 100px;
+        
     }
 }
 

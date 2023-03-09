@@ -7,14 +7,14 @@ const Header = () => {
         <header className="main-header ">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 header-wraper order-2 order-lg-1">
-                        <h1><b>Creative Solutions</b><br /> for your Complex Ideas!</h1>
-                        <p>Bringing people together under your brand, with your content,<br />
+                    <div className="col-lg-6 header-wraper order-2 order-lg-1 mb-md-5 mb-lg-0 mt-md-0 d-flex flex-column justify-content-center">
+                        <h1 className="text-md-center text-lg-start"><b>Creative Solutions</b><br /> for your Complex Ideas!</h1>
+                        <p className="text-md-center text-lg-start">Bringing people together under your brand, with your content,<br />
                             events, and courses all available on the web and mobile apps<br />
                             is the future of business.
                         </p>
-                        <div className="header-2ndR">
-                            <div className="">
+                        <div className="header-2ndR justify-content-center">
+                            <div>
                                 <h1><b>300+</b></h1>
                                 <p>Successful Projects</p>
                             </div>
@@ -24,7 +24,7 @@ const Header = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-6 order-1 order-lg-2">
+                    <div className="col-lg-6 order-1 order-lg-2 text-md-center text-lg-start">
                         <img src="./src/assets/images/header.png" className="header-image" alt="image" />
                         <img src="./src/assets/images/header-image-side.png" className="header-image-side" alt="" />
                     </div>

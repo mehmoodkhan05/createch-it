@@ -23,7 +23,7 @@ const About = () => {
                         intranet experiences using the latest and proven web technologies.
                     </p>
                 </div>
-                <button className="main-section-btn mt-5 mb-5 px-3 py-1">
+                <button className="main-section-btn mt-5 mb-5 px-5 py-2">
                     More about us
                     <FaLongArrowAltRight className="btn-icon ms-2" />
                 </button>
