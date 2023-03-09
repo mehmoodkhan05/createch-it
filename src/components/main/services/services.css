@@ -1,15 +1,13 @@
 section.services-section h1 {
     position: absolute;
-    /* width: 100%; */
     background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     opacity: 0.04;
     font-size: 140px;
-    /* margin-left: 150px; */
-    top: -60px;
-    left: 735px;
+    top: -65px;
+    right: 100px;
 }
 
 
