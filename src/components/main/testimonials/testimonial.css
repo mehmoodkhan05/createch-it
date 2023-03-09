@@ -1,0 +1,24 @@
+section.testimonial-section {
+    margin-top: 165px;
+}
+
+
+section.testimonial-section h1 {
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    opacity: 0.04;
+    font-size: 150px;
+    left: 38%;
+    top: -75px;
+    font-weight: 400;
+}
+
+
+section.testimonial-section h2 {
+    font-size: 34px;
+    position: relative;
+    left: 124px;
+}
