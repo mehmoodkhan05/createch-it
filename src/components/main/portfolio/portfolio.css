@@ -28,6 +28,20 @@ section.portfolio-section .portfolio-btn {
     border: none;
 }
 
+.portfolio-section .portfolio-btn .portfolio-btn-icon {
+    transition: all 300ms ease-in-out;
+    color: #F5F5F5;
+    position: relative;
+    left: 0;
+}
+
+.portfolio-section .portfolio-btn:hover{
+    background: linear-gradient(13.9deg, #52658C 0%, #367076 100.66%);
+}
+.portfolio-section .portfolio-btn:hover .portfolio-btn-icon {
+    left: 5px;
+}
+
 section.portfolio-section .portfolio-btn-div {
     margin-top: 150px;
 }
