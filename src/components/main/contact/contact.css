@@ -1,0 +1,57 @@
+section.contact-section {
+    margin-top: 250px;
+    position: relative;
+}
+
+
+section.contact-section h1 {
+    font-size: 165px;
+    opacity: 0.04;
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    top: -130px;
+    right: 610px;
+}
+
+.contact-section p {
+    margin-left: 50px;
+    font-size: 22.5px;
+}
+
+.contact-section h2 {
+    font-size: 34px;
+}
+
+.contact-section .contact-image {
+    width: 428px;
+    position: relative;
+    left: 124px;
+    margin-top: 60px;
+}
+
+.contact-section .contact-form {
+    position: relative;
+    left: 50px;
+}
+
+.contact-section .contact-form .form-control {
+    width: 400px;
+    opacity: 0.5;
+    border: 1px solid #4A4A4A;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.contact-section .contact-form .form-control::placeholder {
+    font-size: 12px;
+}
+
+.contact-form .contact-btn {
+    background: linear-gradient(225deg, #8BC5CB 47.4%, #51A8B1 100%);
+    border-radius: 100px;
+    color: #fff;
+    border: none;
+    margin-top: 25px;
+}

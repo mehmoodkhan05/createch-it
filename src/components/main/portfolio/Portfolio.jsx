@@ -34,7 +34,7 @@ const Portfolio = () => {
               <img src="./src/assets/images/portfolio-6.jpg" className="img-fluid" alt="portfolio" />
             </div>
             <div className="text-center portfolio-btn-div">
-              <button className="portfolio-btn px-5 py-1">
+              <button className="portfolio-btn px-5 py-2">
                 View More
                 <FaLongArrowAltRight className="portfolio-btn-icon ms-2" />
               </button>
