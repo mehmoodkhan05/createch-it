@@ -2,6 +2,16 @@ section.portfolio-section {
     margin-top: 180px;
 }
 
+section.portfolio-section img {
+    transition: .3s all ease-in-out;
+}
+
+
+section.portfolio-section img:hover {
+    transform: scale(1.03);
+}
+
+
 
 section.portfolio-section h1 {
     position: absolute;
