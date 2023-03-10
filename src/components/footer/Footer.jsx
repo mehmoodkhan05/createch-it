@@ -9,7 +9,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <footer className="main-footer pb-3">
+      <footer className="main-footer">
           <div className="container">
             <div className="row">
               <div className="col-xl-2 mt-5 col-lg-4 col-md-4 col-sm-6 col-12">
@@ -82,7 +82,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="container">
-            <p className="text-center footer-copyright">
+            <p className="text-center footer-copyright pb-4">
               © 2020 Createch IT Solutions. All Rights Reserved. 
             </p>
           </div>

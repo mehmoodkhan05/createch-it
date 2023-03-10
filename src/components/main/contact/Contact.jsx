@@ -10,7 +10,7 @@ const Contact = () => {
                 <h1 className="text-center position-absolute">Contact</h1>
                 <div className="row">
                     <div className="col-lg-6">
-                        <h2 className="text-end">Interested in driving growth?</h2>
+                        <h2 className="text-end fw-bold">Interested in driving growth?</h2>
                         <img src="./src/assets/images/contact-image.png" className="contact-image" alt="" />
                     </div>
                     <div className="col-lg-6 ps-5">

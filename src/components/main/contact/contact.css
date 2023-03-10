@@ -54,4 +54,10 @@ section.contact-section h1 {
     color: #fff;
     border: none;
     margin-top: 25px;
+    transition: all 300ms ease-in-out;
+}
+
+.contact-form .contact-btn:hover {
+    background-position: 75px;
+    transition: all 300ms ease-in-out;
 }

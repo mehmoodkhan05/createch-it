@@ -18,19 +18,17 @@ ul li a {
     border-radius: 100px;
     width: 130px;
     font-size: 13px;
+    transition: all 300ms ease-in-out;
+}
+
+.header-btn:hover {
+    transition: all 300ms ease-in-out;
+    background-position: 62px;
 }
 
 .search-icon {
     cursor: pointer;
     margin-right: 15px;
-}
-
-.header-image-side {
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 100px;
-    z-index: 0;
 }
 
 @media only screen and (max-width: 420px) {

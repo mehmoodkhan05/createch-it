@@ -3,7 +3,6 @@ header.main-header {
 }
 
 .header-wraper h1 {
-    /* margin-top: 150px; */
     text-align: left;
     background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
     -webkit-background-clip: text;

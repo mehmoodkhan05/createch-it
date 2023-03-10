@@ -6,9 +6,12 @@ const About = () => {
   return (
     <>
         <section className="main-section">
+            <div id="twocirc">
+
+            </div>
             <div className="container text-center">
                 <h1>About Us</h1>
-                <h2>Why Choose Us</h2>
+                <h2 className="fw-bold">Why Choose Us</h2>
                 <div className="main-section-PRG-1 mt-5"> 
                     <p>
                         We are a modern website building agency that <br /> can scale as your

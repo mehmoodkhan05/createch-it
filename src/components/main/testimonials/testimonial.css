@@ -23,9 +23,23 @@ section.testimonial-section h2 {
     left: 124px;
 }
 
-/* .testimonial-section .testimonial-icon {
-    width: 114px;
+.testimonial-section .testimonial-icon {
     position: relative;
-    left: 100px;
-    top: 25px;
-} */
+    left: 80px;
+    top: 40px;
+}
+
+.testimonial-section .testimonial-description {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.testimonial-section .testimonial-PRG {
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+    margin-top: 65px;
+    font-size: 15px;
+}

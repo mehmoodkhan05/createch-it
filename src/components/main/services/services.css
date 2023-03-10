@@ -41,8 +41,19 @@ section.services-section .card {
     border-radius: 10px;
     padding-left: 15px;
     border: none;
-    /* margin-bottom: 100px; */
+    transition: all .3s ease-in-out;
 }
+
+section.services-section .card:hover {
+    transform: scale(1.05);
+    background: linear-gradient(256.52deg, #A8D0E6 0%, #3EA3B7 100%);
+}
+
+section.services-section .card:hover .care-read-btn {
+    color: #000;
+}
+
+
 
 section.services-section .card .card-title {
     font-size: 16px;
@@ -57,8 +68,11 @@ section.services-section .card p {
 section.services-section .card .card-body a {
     color: #51A8B1;
     font-size: 14px;
-    margin-top: 30px;
-    display: block;
+    margin-top: 3px;
+}
+
+section.services-section .card .card-body a:hover {
+    opacity: 0.7;
 }
 
 @media only screen and (max-width: 425px) {
