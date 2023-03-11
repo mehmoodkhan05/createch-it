@@ -9,7 +9,6 @@ const Testimonial = () => {
             <div className="container position-relative">
                 <h1 className="position-absolute">Testimonials</h1>
                 <h2 className="fw-bold">What our clients say</h2>
-                {/* <FaQuoteLeft className="testimonial-icon" /> */}
                 <div className="row">
                   <div className="col-lg-3 col-md-3 col-sm-2 text-end mt-5">
                     <img src="./src/assets/quote.svg" className="testimonial-icon" alt="" />

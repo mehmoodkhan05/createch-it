@@ -6,9 +6,10 @@ const Services = () => {
     <>
         <section className="services-section">
             <div className="container mb-5 position-relative">
+            <div id="services-two-circle"></div>
                 <h1 className="text-md-end text-center">Services</h1>
                 <h2 className="text-center fw-bold">What we do</h2>
-                <div className="row">
+                <div className="row gx-3">
                     <div className="col-md-4 col-sm-6 col-12 card-parent">
                         <div className="card">
                             <div className="card-body">
@@ -45,7 +46,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12 card-parent">
+                    <div className="col-md-4 col-sm-6 col-12 card-parent mt-lg-5">
                         <div className="card">
                             <div className="card-body">
                                 <img src="./src/assets/images/card-icon-4.png" className="position-absolute card-icon" alt="" />
@@ -57,7 +58,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12 card-parent">
+                    <div className="col-md-4 col-sm-6 col-12 card-parent mt-lg-5">
                         <div className="card">
                             <div className="card-body">
                                 <img src="./src/assets/images/card-icon-5.png" className="position-absolute card-icon" alt="" />
@@ -69,7 +70,7 @@ const Services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4 col-sm-6 col-12 card-parent">
+                    <div className="col-md-4 col-sm-6 col-12 card-parent mt-lg-5">
                         <div className="card">
                             <div className="card-body">
                                 <img src="./src/assets/images/card-icon-6.png" className="position-absolute card-icon icon-lg" alt="" />

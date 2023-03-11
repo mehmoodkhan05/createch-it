@@ -6,9 +6,7 @@ const About = () => {
   return (
     <>
         <section className="main-section">
-            <div id="twocirc">
-
-            </div>
+            <div id="about-two-circle"></div>
             <div className="container text-center">
                 <h1>About Us</h1>
                 <h2 className="fw-bold">Why Choose Us</h2>

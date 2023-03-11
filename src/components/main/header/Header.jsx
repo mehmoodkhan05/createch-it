@@ -13,7 +13,7 @@ const Header = () => {
                             events, and courses all available on the web and mobile apps<br />
                             is the future of business.
                         </p>
-                        <div className="header-2ndR justify-content-center">
+                        <div className="header-2ndR">
                             <div>
                                 <h1><b>300+</b></h1>
                                 <p>Successful Projects</p>

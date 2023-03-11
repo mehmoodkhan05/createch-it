@@ -6,13 +6,43 @@ section.services-section h1 {
     background-clip: text;
     opacity: 0.04;
     font-size: 140px;
-    top: -65px;
+    top: -80px;
     right: 100px;
 }
 
+section #services-two-circle{
+    position: absolute;
+    left: 0;
+    top: -50px;
+    opacity: 0.25;
+}
+
+section #services-two-circle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 10px solid #ccc;
+}
+
+section #services-two-circle::after {
+    content: "";
+    position: absolute;
+    top: 68px;
+    left: 55px;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
+}
 
 section.services-section h2 {
-    font-size: 34px;
+    font-size: 28px;
     margin-top: 100px;
 }
 
@@ -35,7 +65,6 @@ section.services-section .card-body .icon-lg {
     width: 78px;
 }
 
-
 section.services-section .card {
     background: linear-gradient(256.52deg, rgba(168, 208, 230, 0.1) 0%, rgba(62, 163, 183, 0.1) 100%);
     border-radius: 10px;
@@ -52,8 +81,6 @@ section.services-section .card:hover {
 section.services-section .card:hover .care-read-btn {
     color: #000;
 }
-
-
 
 section.services-section .card .card-title {
     font-size: 16px;
@@ -73,6 +100,19 @@ section.services-section .card .card-body a {
 
 section.services-section .card .card-body a:hover {
     opacity: 0.7;
+}
+
+@media only screen and (max-width: 1024px) {
+    section #services-two-circle {
+        left: 40px;
+    }
+
+    section #services-two-circle::before {
+        width: 50px;
+        height: 50px;
+    }
+
+
 }
 
 @media only screen and (max-width: 425px) {

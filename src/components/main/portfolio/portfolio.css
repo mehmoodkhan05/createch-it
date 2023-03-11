@@ -4,14 +4,12 @@ section.portfolio-section {
 
 section.portfolio-section img {
     transition: .3s all ease-in-out;
+    box-shadow: 0 100px 0 0 #fafafa;
 }
-
 
 section.portfolio-section img:hover {
     transform: scale(1.03);
 }
-
-
 
 section.portfolio-section h1 {
     position: absolute;
@@ -19,7 +17,6 @@ section.portfolio-section h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    /* text-fill-color: transparent; */
     opacity: 0.04;
     font-size: 160px;
     top: -110px;
@@ -28,6 +25,38 @@ section.portfolio-section h1 {
 
 section.portfolio-section h2 {
     font-size: 34px;
+}
+
+section #portfolio-two-circle{
+    position: absolute;
+    right: 10px;
+    top: -5px;
+    opacity: 0.25;
+    z-index: -5;
+}
+
+section #portfolio-two-circle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 35px solid #ccc;
+}
+
+section #portfolio-two-circle::after {
+    content: "";
+    position: absolute;
+    top: 190px;
+    left: 110px;
+    transform: translateX(-50%);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid #ccc;
 }
 
 section.portfolio-section .portfolio-btn {
@@ -48,13 +77,31 @@ section.portfolio-section .portfolio-btn {
 .portfolio-section .portfolio-btn:hover{
     background: linear-gradient(13.9deg, #52658C 0%, #367076 100.66%);
 }
+
 .portfolio-section .portfolio-btn:hover .portfolio-btn-icon {
     left: 5px;
 }
 
 section.portfolio-section .portfolio-btn-div {
-    margin-top: 150px;
+    margin-top: 225px;
 }
+
+@media only screen and (max-width: 1024px) {
+    section #portfolio-two-circle::before {
+        width: 100px;
+        height: 100px;
+        border: 15px solid #ccc;
+        top: 45px;
+        display: none;
+}
+    section #portfolio-two-circle::after {
+        top: 155px;
+        left: 50px;
+        display: none;
+    }
+    
+}
+
 
 @media only screen and (max-width: 425px) {
     section.portfolio-section h1 {

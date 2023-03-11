@@ -8,10 +8,9 @@ section.testimonial-section h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    /* text-fill-color: transparent; */
     opacity: 0.04;
     font-size: 150px;
-    left: 38%;
+    left: 35%;
     top: -75px;
     font-weight: 400;
 }
@@ -20,7 +19,7 @@ section.testimonial-section h1 {
 section.testimonial-section h2 {
     font-size: 34px;
     position: relative;
-    left: 124px;
+    left: 70px;
 }
 
 .testimonial-section .testimonial-icon {
@@ -42,4 +41,17 @@ section.testimonial-section h2 {
     /* text-fill-color: transparent; */
     margin-top: 65px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 1024px) {
+    section.testimonial-section h1 {
+        left: 0;
+        width: 100%;
+    }
+
+    section.testimonial-section h2 {
+        left: 0;
+    }
+
+
 }

@@ -15,7 +15,7 @@ const Footer = () => {
               <div className="col-xl-2 mt-5 col-lg-4 col-md-4 col-sm-6 col-12">
                 <img className="footer-logo w-sm-100 w-xs-25" src="./src/assets/images/footer-logo.png" alt="logo" />
               </div>
-              <div className="col-xl-3 mt-5 col-lg-4 col-md-4 col-sm-6 col-12">
+              <div className="col-xl-3 mt-5 col-lg-4 col-md-6 col-sm-6 col-12">
                 <h4>About Company</h4>
                 <p>
                   Createch IT Solutions offers a variety of website design and
