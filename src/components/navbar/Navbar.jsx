@@ -5,7 +5,7 @@ const Navbar = (props) => {
   return (
     <>
         <header className="position-relative navbar-header">
-            <nav className="navbar navbar-expand-lg position-absolute w-100 bg-white">
+            <nav className="navbar navbar-expand-lg position-absolute w-100 bg-white fixed-top">
                 <div className="container">
                     <a className="navbar-brand header-logo" href="#">
                         <img src="./src/assets/images/CreatechitLogo.png" alt="Logo" />
@@ -24,27 +24,27 @@ const Navbar = (props) => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">
+                                <a className="nav-link" aria-current="page" href="#home">
                                     {props.home}
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <a className="nav-link" href="#about">
                                     {props.about}
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <a className="nav-link" href="#portfolio">
                                     {props.portfolio}
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <a className="nav-link" href="#testimonial">
                                     {props.testimonials}
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">
+                                <a className="nav-link" href="#contact">
                                     {props.contact}
                                 </a>
                             </li>

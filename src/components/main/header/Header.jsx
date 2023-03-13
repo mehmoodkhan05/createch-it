@@ -4,16 +4,16 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-        <header className="main-header ">
+        <header className="main-header" id="#home">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 header-wraper order-2 order-lg-1 mb-md-5 mb-lg-0 mt-md-0 d-flex flex-column justify-content-center">
-                        <h1 className="text-md-center text-lg-start"><b>Creative Solutions</b><br /> for your Complex Ideas!</h1>
-                        <p className="text-md-center text-lg-start">Bringing people together under your brand, with your content,<br />
-                            events, and courses all available on the web and mobile apps<br />
+                        <h1 className="text-md-center text-lg-start"><b>Creative Solutions</b> for your Complex Ideas!</h1>
+                        <p className="text-md-center text-lg-start">Bringing people together under your brand, with your content,
+                            events, and courses all available on the web and mobile apps
                             is the future of business.
                         </p>
-                        <div className="header-2ndR">
+                        <div className="header-2ndR justify-content-md-center justify-content-lg-start">
                             <div>
                                 <h1><b>300+</b></h1>
                                 <p>Successful Projects</p>

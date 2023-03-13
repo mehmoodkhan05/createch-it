@@ -108,23 +108,8 @@ section.services-section .card .card-body a:hover {
     }
 
     section #services-two-circle::before {
-        width: 50px;
-        height: 50px;
-    }
-
-
-}
-
-@media only screen and (max-width: 425px) {
-    section.services-section h1 {
-        font-size: 58px;
-        margin-left: 25px;
-        margin-top: -15px;
-    }
-
-    section.services-section .card {
-        margin: 0;
-        margin-top: 10px;
+        width: 70px;
+        height: 70px;
     }
 
 }
@@ -138,5 +123,30 @@ section.services-section .card .card-body a:hover {
         height: 100%;
     }
 
+}
+
+@media only screen and (max-width: 425px) {
+
+    section.services-section {
+        margin-top: 150px;
+    }
+
+    section.services-section h1 {
+        font-size: 70px;
+        top: -30px;
+        left: -10px;
+        width: 100%;
+    }
+
+    section.services-section .card-parent {
+        margin-top: 65px;
+        
+    }
+
+    section #services-two-circle{
+        top: -105px;
+    }
+
 
 }
+

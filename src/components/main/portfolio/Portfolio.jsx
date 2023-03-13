@@ -8,7 +8,7 @@ const Portfolio = () => {
       <section className="portfolio-section mb-5">
         <div className="container position-relative">
           <div id="portfolio-two-circle"></div>
-          <h1 className="position-absolute">Portfolio</h1>
+          <h1 className="position-absolute" id="portfolio">Portfolio</h1>
           <h2 className="text-center fw-bold">Portfolio</h2>
           <div className="row mt-5">
             <div className="col-xl-2 col-lg-2 p-0 col-md-4 col-sm-4 col-6 pe-1">

@@ -3,7 +3,7 @@ import React from "react";
 const Form = () => {
   return (
     <>
-        <form className="contact-form mt-4">
+        <form className="contact-form mt-4 contact__form">
             <div className="mb-3">
                 <input
                     type="text"

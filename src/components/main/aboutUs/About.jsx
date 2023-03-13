@@ -5,7 +5,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 const About = () => {
   return (
     <>
-        <section className="main-section">
+        <section className="main-section" id="about">
             <div id="about-two-circle"></div>
             <div className="container text-center">
                 <h1>About Us</h1>
