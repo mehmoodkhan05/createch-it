@@ -38,3 +38,15 @@ section.creative-section p {
     }
 
 }
+
+@media only screen and (max-width: 375px) {
+    section.creative-section h1 {
+        font-size: 50px;
+        left: 70px;
+    }
+
+    section.creative-section h2 {
+        font-size: 24px;
+    }
+
+}

@@ -10,8 +10,8 @@ section.contact-section h1 {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    top: -130px;
-    right: 610px;
+    top: -25%;
+    left: 25.5%;
 }
 
 .contact-section p {
@@ -59,6 +59,14 @@ section.contact-section h1 {
 .contact-form .contact-btn:hover {
     background-position: 75px;
     transition: all 300ms ease-in-out;
+}
+
+@media only screen and (max-width: 1200px) {
+    section.contact-section h1 {
+        left: 15%;
+        width: 75%;
+    }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -127,10 +135,27 @@ section.contact-section h1 {
     .contact-section .contact__PRG {
         text-align: center;
         margin-top: 30px;
+        margin-left: 0;
     }
 
     section.contact-section .contact__form {
         left: 0;
     }
 
+}
+
+@media only screen and (max-width: 375px) {
+    section.contact-section h1 {
+        font-size: 50px;
+        top: -30px;
+        left: 80px;
+    }
+
+    section.contact-section h2 {
+        font-size: 24px;
+    }
+
+    .contact-section .contact-form .form-control {
+        width: 100%;
+    }
 }

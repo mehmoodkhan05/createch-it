@@ -6,7 +6,7 @@ const Services = () => {
     <>
         <section className="services-section">
             <div className="container mb-5 position-relative">
-            <div id="services-two-circle"></div>
+                <div id="services-two-circle"></div>
                 <h1 className="text-md-end text-center">Services</h1>
                 <h2 className="text-center fw-bold">What we do</h2>
                 <div className="row gx-3">
