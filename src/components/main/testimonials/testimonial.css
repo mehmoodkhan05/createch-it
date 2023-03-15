@@ -97,8 +97,9 @@ section.testimonial-section h2 {
 
 @media only screen and (max-width: 768px) {
     section.testimonial-section h1 {
-        font-size: 90px;
+        font-size: 70px;
         left: 0;
+        top: -10%;
     }
 
     .testimonial-section .testimonial-icon {

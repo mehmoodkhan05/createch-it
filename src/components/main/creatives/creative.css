@@ -32,9 +32,9 @@ section.creative-section p {
 
 @media only screen and (max-width: 768px) {
     section.creative-section h1 {
-        font-size: 90px;
+        font-size: 80px;
         top: -5%;
-        left: 15%;
+        left: 0;
     }
 
 }

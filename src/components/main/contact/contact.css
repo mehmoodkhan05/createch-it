@@ -67,6 +67,11 @@ section.contact-section h1 {
         width: 75%;
     }
 
+    .contact-section .contact-image {
+        left: 0;
+        margin-top: 20px;
+    }
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -103,8 +108,8 @@ section.contact-section h1 {
     section.contact-section h1 {
         font-size: 90px;
         top: -8%;
-        left: 15%;
-        /* width: 0; */
+        left: 0;
+        width: 100%;
     }
 
     .contact-section .contact-image {
