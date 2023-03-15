@@ -13,7 +13,7 @@ const Contact = () => {
                         <h2 className="text-end text-sm-center fw-bold">Interested in driving growth?</h2>
                         <img src="./src/assets/images/contact-image.png" className="contact-image img-fluid" alt="" />
                     </div>
-                    <div className="col-lg-6 col-md-7 p-md-0">
+                    <div className="col-lg-4 col-md-7 p-md-0">
                         <p className="contact__PRG">Have a general question?<br /> We're just an email away.</p>
                         <Form />
                     </div>

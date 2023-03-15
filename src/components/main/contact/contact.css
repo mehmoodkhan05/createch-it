@@ -36,7 +36,7 @@ section.contact-section h1 {
 }
 
 .contact-section .contact-form .form-control {
-    /* width: 400px; */
+    width: 100%;
     opacity: 0.5;
     border: 1px solid #4A4A4A;
     border-radius: 5px;
@@ -148,33 +148,27 @@ section.contact-section h1 {
     .contact-section .contact-image {
         display: flex;
         margin: auto;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
     .contact-section .contact__PRG {
-        text-align: center;
         margin-top: 30px;
-        margin-left: 0;
     }
-
-    section.contact-section .contact__form {
-        left: 0;
-    }
-
 }
 
 @media only screen and (max-width: 375px) {
     section.contact-section h1 {
         font-size: 50px;
         top: -30px;
-        left: 80px;
+        width: 70%;
     }
 
     section.contact-section h2 {
         font-size: 24px;
     }
 
-    .contact-section .contact-form .form-control {
-        width: 100%;
+    section.contact-section .contact__form {
+        left: 0;
     }
+
 }
