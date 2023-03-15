@@ -53,7 +53,7 @@ section.testimonial-section h2 {
 
 @media only screen and (max-width: 1200px) {
     section.testimonial-section h1 {
-        left: 15%;
+        left: 10%;
     }
 
     .testimonial-section .testimonial-icon {
@@ -72,19 +72,33 @@ section.testimonial-section h2 {
 
 @media only screen and (max-width: 1024px) {
     section.testimonial-section h1 {
+        font-size: 115px;
         left: 0;
-        width: 100%;
     }
 
     section.testimonial-section h2 {
         left: 0;
     }
 
+    .testimonial-section .testimonial-icon {
+        left: 0;
+    }
+
+    .testimonial-section .testimonial-image {
+        left: 0;
+        width: 100%;
+    }
+
+    .testimonial-section .testimonial-PRG {
+        margin-top: 15px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
     section.testimonial-section h1 {
-        font-size: 120px;
+        font-size: 90px;
+        left: 0;
     }
 
     .testimonial-section .testimonial-icon {
@@ -101,7 +115,7 @@ section.testimonial-section h2 {
     }
 
     .testimonial-section .testimonial-PRG {
-        margin-top: 0;
+        margin-top: 20px;
     }
     
 }

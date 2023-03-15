@@ -107,6 +107,11 @@ section.services-section .card .card-body a:hover {
 }
 
 @media only screen and (max-width: 1024px) {
+
+    section.services-section h1 {
+        font-size: 115px;
+    }
+
     section #services-two-circle {
         left: 40px;
     }
@@ -116,11 +121,18 @@ section.services-section .card .card-body a:hover {
         height: 70px;
     }
 
+    section.services-section .card {
+        height: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
     section.services-section h1 {
-        font-size: 120px;
+        font-size: 90px;
+        top: -5%;
+        left: 0;
+        width: 100%;
     }
 
     section.services-section .card {

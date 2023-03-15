@@ -84,6 +84,21 @@ section.main-section .main-section-btn:hover {
     background-position: 110px;
 }
 
+@media only screen and (max-width: 1024px) {
+    section.main-section h1 {
+        font-size: 115px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    section.main-section h1 {
+        font-size: 90px;
+        left: 15%;
+    }
+
+}
+
 @media only screen and (max-width: 425px) {
     section.main-section h1 {
         font-size: 70px;

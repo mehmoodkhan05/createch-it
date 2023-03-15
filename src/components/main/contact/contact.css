@@ -36,7 +36,7 @@ section.contact-section h1 {
 }
 
 .contact-section .contact-form .form-control {
-    width: 400px;
+    /* width: 400px; */
     opacity: 0.5;
     border: 1px solid #4A4A4A;
     border-radius: 5px;
@@ -71,13 +71,13 @@ section.contact-section h1 {
 
 @media only screen and (max-width: 1024px) {
     section.contact-section h1 {
-        /* font-size: 100px; */
-        left: 180px;
+        font-size: 115px;
+        left: 25%;
         width: 75%;
     }
 
     .contact-section .contact-image {
-        left: 60px;
+        left: 0;
     }
 
     .contact-section h2 {
@@ -88,17 +88,28 @@ section.contact-section h1 {
         margin-top: 10px;
     }
 
+    section.contact-section {
+        margin-top: 150px;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
+
+    section.contact-section {
+        margin-top: 250px;
+    }
+
     section.contact-section h1 {
-        font-size: 140px;
-        left: 21px;
+        font-size: 90px;
+        top: -8%;
+        left: 15%;
+        /* width: 0; */
     }
 
     .contact-section .contact-image {
         left: 0;
-        width: 280px;
+        width: 100%;
         margin-top: 50px;
     }
 
@@ -114,7 +125,10 @@ section.contact-section h1 {
     }
 
     .contact-section .contact__PRG {
-        left: 0;
+        /* left: 0; */
+        margin-top: 25px;
+        width: 100%;
+        text-align: center;
     }
 
 }
