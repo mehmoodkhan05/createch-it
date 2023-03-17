@@ -4,7 +4,7 @@ import "./header.css";
 const Header = () => {
   return (
     <>
-        <header className="main-header" id="#home">
+        <header className="main-header" id="home">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 header-wraper order-2 order-lg-1 mb-md-5 mb-lg-0 mt-md-0 d-flex flex-column justify-content-center">

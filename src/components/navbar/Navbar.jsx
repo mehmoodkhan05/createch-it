@@ -18,7 +18,11 @@ const Navbar = (props) => {
                 <nav className="navbar navbar-expand-lg w-100 bg-white fixed-top">
                     <div className="container">
                         <a className="navbar-brand" href="#">
-                            <img src="./src/assets/images/CreatechitLogo.png" className="header-logo" alt="Logo" />
+                            <img
+                                src="./src/assets/images/CreatechitLogo.png"
+                                className="header-logo"
+                                alt="Logo"
+                            />
                         </a>
                         <button
                             className="navbar-toggler"
@@ -34,7 +38,7 @@ const Navbar = (props) => {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link" aria-current="page" href="#">
+                                    <a className="nav-link" aria-current="page" href="#home">
                                         {props.home}
                                     </a>
                                 </li>

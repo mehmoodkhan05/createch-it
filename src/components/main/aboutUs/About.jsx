@@ -7,7 +7,7 @@ const About = () => {
     <>
         <section className="main-section" id="about">
             <div id="about-two-circle"></div>
-            <div className="container text-center">
+            <div className="container text-center mt-5 mb-5">
                 <h1>About Us</h1>
                 <h2 className="fw-bold">Why Choose Us</h2>
                 <div className="main-section-PRG-1 mt-5"> 

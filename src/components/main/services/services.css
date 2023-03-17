@@ -12,13 +12,25 @@ section.services-section h1 {
     font-size: 140px;
     top: -12%;
     right: 100px;
+    transition: all .5s ease-in-out;
 }
 
-section #services-two-circle{
+section.services-section h1:hover {
+    transition: all .5s ease-in-out;
+    padding-right: 5%;
+}
+
+section #services-two-circle {
     position: absolute;
     left: 35px;
     top: 0;
     opacity: 0.25;
+    transition: all .5s ease-in-out;
+}
+
+section #services-two-circle:hover {
+    transition: all .5s ease-in-out;
+    margin-left: 5%;
 }
 
 section #services-two-circle::before {

@@ -8,16 +8,24 @@ section.testimonial-section h1 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     opacity: 0.04;
-    font-size: 150px;
-    left: 30%;
+    font-size: 140px;
+    right: 0;
     top: -75px;
     font-weight: 400;
+    transition: all .5s ease-in-out;
+}
+
+section.testimonial-section h1:hover {
+    transition: all .5s ease-in-out;
+    padding-right: 10%;
+
 }
 
 section.testimonial-section h2 {
     font-size: 34px;
+    display: inline-block;
     position: relative;
-    left: 0;
+    left: 6.2%;
 }
 
 .testimonial-section .testimonial-icon {
@@ -26,6 +34,12 @@ section.testimonial-section h2 {
     margin: auto;
     top: 40px;
     left: 220px;
+    transition: all .5s ease-in-out;
+}
+
+.testimonial-section .testimonial-icon:hover {
+    transition: all .5s ease-in-out;
+    transform: rotate(180deg);
 }
 
 .testimonial-section .testimonial-image {
@@ -33,6 +47,12 @@ section.testimonial-section h2 {
     display: flex;
     margin: auto;
     left: 70px;
+    transition: all .5s ease-in-out;
+}
+
+.testimonial-section .testimonial-image:hover {
+    transition: all .5s ease-in-out;
+    transform: rotate(-2.5deg);
 }
 
 .testimonial-section .testimonial-description {
@@ -49,6 +69,17 @@ section.testimonial-section h2 {
     /* text-fill-color: transparent; */
     margin-top: 65px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .testimonial-section .testimonial-icon {
+        left: 60%;
+    }
+
+    .testimonial-section .testimonial-image {
+        left: 19%;
+    }
+
 }
 
 @media only screen and (max-width: 1200px) {

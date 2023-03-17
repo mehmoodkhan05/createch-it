@@ -60,6 +60,8 @@ ul li a {
 .header-btn:hover {
     transition: all 300ms ease-in-out;
     background-position: 130px;
+    color: #fff;
+    letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 768px) {

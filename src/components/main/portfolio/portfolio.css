@@ -18,9 +18,16 @@ section.portfolio-section h1 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     opacity: 0.04;
-    font-size: 160px;
+    font-size: 140px;
     top: -110px;
-    left: 105px;
+    left: 160px;
+    transition: all .5s ease-in-out;
+}
+
+section.portfolio-section h1:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+    margin-left: 2%;
 }
 
 section.portfolio-section h2 {
@@ -83,7 +90,7 @@ section.portfolio-section .portfolio-btn {
 }
 
 section.portfolio-section .portfolio-btn-div {
-    margin-top: 225px;
+    margin-top: 160px;
 }
 
 @media only screen and (max-width: 1024px) {
