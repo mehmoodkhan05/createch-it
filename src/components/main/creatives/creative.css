@@ -1,5 +1,5 @@
 section.creative-section {
-    margin-top: 150px;
+    margin-top: 250px;
 }
 
 section.creative-section h1 {
@@ -11,6 +11,34 @@ section.creative-section h1 {
     opacity: 0.04;
     left: 175px;
     top: -95px;
+    transition: all .5s ease-in-out;
+}
+
+section.creative-section h1:hover {
+    transition: all .5s ease-in-out;
+    /* text-align: center; */
+    transform: scale(1.1);
+    padding-left: 10%;
+    padding-top: 1%;
+}
+
+section.creative-section img {
+    transition: all .5s ease-in-out;
+}
+
+section.creative-section .hover-left:hover {
+    transition: all .5s ease-in-out;
+    transform: rotate(-1.5deg);
+}
+
+section.creative-section .image-zoom:hover {
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+}
+
+section.creative-section .hover-right:hover {
+    transition: all .5s ease-in-out;
+    transform: rotate(1.5deg);
 }
 
 section.creative-section h2 {

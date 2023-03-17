@@ -64,7 +64,7 @@ const Navbar = (props) => {
                                 </li>
                             </ul>
                             <button className="header-btn p-1">Need Help?</button>
-                            <div className="search-container">
+                            <div className="search-container d-inline-block">
                                 <span onClick={handleSearchClick}>
                                     <i
                                         className="fa fa-search ms-1 mt-1 search-icon"

@@ -1,5 +1,5 @@
 section.services-section {
-    margin-top: 200px;
+    margin-top: 250px;
 }
 
 section.services-section h1 {
@@ -30,7 +30,7 @@ section #services-two-circle {
 
 section #services-two-circle:hover {
     transition: all .5s ease-in-out;
-    margin-left: 5%;
+    margin-left: 2.5%;
 }
 
 section #services-two-circle::before {

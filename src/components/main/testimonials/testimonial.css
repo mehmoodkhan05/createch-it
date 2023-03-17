@@ -1,5 +1,5 @@
 section.testimonial-section {
-    margin-top: 165px;
+    margin-top: 250px;
 }
 
 section.testimonial-section h1 {
@@ -25,7 +25,7 @@ section.testimonial-section h2 {
     font-size: 34px;
     display: inline-block;
     position: relative;
-    left: 6.2%;
+    left: 4.5%;
 }
 
 .testimonial-section .testimonial-icon {
