@@ -1,14 +1,24 @@
 section.main-section {
+    margin-top: 150px;
     background: linear-gradient(225deg, #acd7db 47.4%, #d7e8eb 100%);
     position: relative;
     padding: 50px;
 }
-section #about-two-circle{
+section #about-two-circle {
     position: absolute;
     right: 12.5%;
     top: 100px;
     opacity: 0.85;
+    transition: all .5s ease-in-out;
 }
+
+section #about-two-circle:hover {
+    transition: all .5s ease-in-out;
+    transform: rotate(1, 1, 0, 180deg);
+    animation: rotate 2s infinite;
+    margin-top: 2%;
+}
+
 section #about-two-circle::before {
     content: "";
     position: absolute;
@@ -43,7 +53,13 @@ section.main-section h1 {
     font-size: 140px;
     top: 12.5%;
     left: 15%;
-    /* text-fill-color: transparent; */
+    transition: all .5s ease-in-out;
+}
+
+section.main-section h1:hover {
+    transition: all .5s ease-in-out;
+    /* transform: scale(1.05); */
+    padding-left: 5%;
 }
 
 
@@ -81,7 +97,7 @@ section.main-section .main-section-btn:hover .btn-icon {
 }
 
 section.main-section .main-section-btn:hover {
-    background-position: 110px;
+    background-position: 221px;
 }
 
 @media only screen and (max-width: 1024px) {

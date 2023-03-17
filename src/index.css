@@ -1,6 +1,11 @@
 body {
   font-family: "inter";
   color: #4A4A4A;
+  font-size: 15px;
+}
+
+body p {
+  font-size: 14px;
 }
 
 /* * {

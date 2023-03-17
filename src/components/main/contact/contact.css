@@ -142,7 +142,7 @@ section.contact-section h1 {
     section.contact-section h1 {
         font-size: 70px;
         top: -55px;
-        left: 60px;
+        /* left: 10px; */
     }
 
     .contact-section .contact-image {

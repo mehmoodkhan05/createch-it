@@ -14,7 +14,6 @@ header.main-header {
 .header-wraper p {
     text-align: justify;
     margin-top: 25px;
-    font-size: 15px;
 }
 
 .header-2ndR {
@@ -28,7 +27,6 @@ header.main-header {
 
 .header-2ndR p {
     margin-top: -10px;
-    font-size: 12px;
 }
 
 .header-image-side {
