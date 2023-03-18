@@ -89,10 +89,10 @@ const Footer = () => {
                 </p>
               </div>
               <div className="mt-4">
-                <a href="">
+                <a href="https://www.facebook.com/createchitsolutions" target="_blank">
                   <FaFacebookF className="footer-icon" />
                 </a>
-                <a href="https://www.linkedin.com/company/createch-it-solutions-pvt-ltd/">
+                <a href="https://www.linkedin.com/company/createch-it-solutions-pvt-ltd/" target="_blank">
                   <FaLinkedinIn className="ms-3 footer-icon" />
                 </a>
                 <a href="">
