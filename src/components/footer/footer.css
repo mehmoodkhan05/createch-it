@@ -54,3 +54,16 @@ footer .footer-icon:hover {
 footer .footer-copyright {
     margin-top: 180px;
 }
+
+footer .footer-contact a {
+    color: #4A4A4A;
+    line-height: 28px;
+}
+
+footer .footer-contact a:hover {
+    color: #0059ff;
+}
+
+footer .footer-copyright a {
+    color: #4A4A4A;
+}

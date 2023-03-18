@@ -65,23 +65,37 @@ const Footer = () => {
                 </span>
               </div>
             </div>
-            <div className="col-xl-3 mt-5 col-lg-4 col-md-4 col-sm-6 col-12">
+            <div className="col-xl-3 mt-5 col-lg-4 col-md-12 col-sm-6 col-12">
               <h4>Contact</h4>
               <div className="footer-contact">
                 <p>
-                  Room No. 53-55, 3rd Floor Sultan Tower, Makanbagh Mingora,
-                  Swat KP Pakistan <br /> info@createchit.com <br /> +66 2399
-                  1145
+                  <a
+                    href="https://goo.gl/maps/WQBQci7bDsbtWDx59"
+                    target="_blank"
+                    className="text-decoration-none"
+                    style={{lineHeight: "0"}}
+                  >
+                    Room No. 53-55, 3rd Floor Sultan Tower, Makanbagh Mingora,
+                    Swat KP Pakistan
+                  </a>
+                  <br />
+                  <a href="" className="text-decoration-none">
+                    info@createchit.com
+                  </a>
+                  <br />
+                  <a href="" className="text-decoration-none">
+                    +66 2399 1145
+                  </a>
                 </p>
               </div>
               <div className="mt-4">
-                <a href="#">
+                <a href="">
                   <FaFacebookF className="footer-icon" />
                 </a>
-                <a href="#">
+                <a href="https://www.linkedin.com/company/createch-it-solutions-pvt-ltd/">
                   <FaLinkedinIn className="ms-3 footer-icon" />
                 </a>
-                <a href="#">
+                <a href="">
                   <FaTwitter className="ms-3 footer-icon" />
                 </a>
               </div>
@@ -90,7 +104,11 @@ const Footer = () => {
         </div>
         <div className="container">
           <p className="text-center footer-copyright pb-4">
-            © 2020 Createch IT Solutions. All Rights Reserved.
+            © 2020 &nbsp;
+            <a href="" className="text-decoration-none">
+              Createch IT Solutions
+            </a>
+            . All Rights Reserved.
           </p>
         </div>
       </footer>

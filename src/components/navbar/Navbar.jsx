@@ -2,15 +2,19 @@ import React, { useState } from "react";
 import "./navbar.css";
 
 const Navbar = (props) => {
-    const [searchOpen, setSearchOpen] = useState(false);
+    const [isSearchOpen, setSearchOpen] = useState(false);
 
-    // const handleSearchClick = () => {
-    //     setSearchOpen(SearchOpen);
-    // };
-
-    const toggleSearch = () => {
-        setSearchOpen(!searchOpen);
+    const handleSearchClick = () => {
+        setSearchOpen(!isSearchOpen);
     };
+
+    const handleInputBlur = () => {
+        setSearchOpen(false);
+    };
+
+    // const toggleSearch = () => {
+    //     setSearchOpen(!searchOpen);
+    // };
 
     return (
         <>
@@ -64,35 +68,32 @@ const Navbar = (props) => {
                                 </li>
                             </ul>
                             <button className="header-btn p-1">Need Help?</button>
-                            {/* <div className="search-container d-inline-block">
-                                <span onClick={toggleSearch}>
+                            <div className="search-container d-inline-block">
+                                <span onClick={handleSearchClick}>
                                     <i
                                         className="fa fa-search ms-xl-1 mt-1 search-icon"
                                         aria-hidden="true"
                                     ></i>
                                 </span>
-                                {SearchOpen && (
-                                <div className={`search-input ${searchOpen ? "open" : ""}`}>
+                                {isSearchOpen && (
                                     <input
-                                        className=""
+                                        className="search-input"
                                         type="search"
                                         placeholder="Search..."
                                         onBlur={handleInputBlur}
                                     />
-                                </div>
-                                 )}
-                            </div> */}
-
-                            <div className="search-container">
+                                )}
+                            </div>
+                            {/* <div className="search-container position-relative">
                                 <button className="search-icon" onClick={toggleSearch}>
                                     <i
                                         className={`fas ${searchOpen ? "fa-times" : "fa-search"}`}
                                     />
                                 </button>
-                                <div className={`search-bar ${searchOpen ? "open" : ""}`}>
+                                <div className={`search-bar position-absolute ${searchOpen ? "open" : ""}`}>
                                     <input type="text" placeholder="Search..." />
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </nav>
