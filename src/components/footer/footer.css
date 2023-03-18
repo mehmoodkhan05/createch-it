@@ -31,9 +31,13 @@ footer p {
 
 footer span a {
     text-decoration: none;
-    color: #666464;
+    color: #367076;
     line-height: 30px;
     font-size: 14px
+}
+
+footer span a:hover {
+    color: #37435D;
 }
 
 footer .footer-icon {
@@ -56,14 +60,13 @@ footer .footer-copyright {
 }
 
 footer .footer-contact a {
-    color: #4A4A4A;
     line-height: 28px;
 }
 
 footer .footer-contact a:hover {
-    color: #0059ff;
+    color: #37435D;
 }
 
-footer .footer-copyright a {
-    color: #4A4A4A;
+footer .footer-copyright a:hover {
+    color: #37435D;
 }

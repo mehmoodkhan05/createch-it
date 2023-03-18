@@ -83,10 +83,12 @@ section.portfolio-section .portfolio-btn {
 
 .portfolio-section .portfolio-btn:hover{
     background: linear-gradient(13.9deg, #52658C 0%, #367076 100.66%);
+    color: #000;
 }
 
 .portfolio-section .portfolio-btn:hover .portfolio-btn-icon {
     left: 5px;
+    color: #000;
 }
 
 section.portfolio-section .portfolio-btn-div {

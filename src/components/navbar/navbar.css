@@ -17,10 +17,14 @@ header.navbar-header .navbar-brand .header-logo:hover {
     padding-left: 5%;
 }
 
-header.navbar-header ul li a {
-    margin-right: 15px;
+header.navbar-header ul li .nav-link {
+    margin-right: 20px;
     font-size: 15px;
     color: #367076;
+}
+
+header.navbar-header ul li .nav-link:hover {
+    color: #37435D;
 }
 
 .search-container {
@@ -37,7 +41,7 @@ header.navbar-header ul li a {
     width: 360px;
     transition: .9s ease-in-out;
     padding: 10px;
-    top: 5%;
+    top: 2%;
     border: none;
     border-radius: 5px;
     overflow: hidden;
@@ -136,13 +140,10 @@ header.navbar-header ul li a {
 
 }
 
-@media only screen and (max-width: 425px) {
-    .header-logo {
-        width: 75%;
-    }
-
+@media only screen and (max-width: 991px) {
     .search-icon {
-        display: none;
+        top: 10%;
+        right: 25%;
     }
 
     .search-container {
@@ -151,9 +152,69 @@ header.navbar-header ul li a {
 
     .search-input {
         position: absolute;
-        left: 0;
-        top: -22.5px;
-        width: 200px;
+        left: 100%;
+        bottom: 35%;
+        width: 230px;
     }
 
+}
+
+@media only screen and (max-width: 425px) {
+    .header-logo {
+        width: 75%;
+    }
+
+    .search-icon {
+        right: 50%;
+    }
+
+    .search-container {
+        position: relative;
+    }
+
+    .search-input {
+        position: absolute;
+        left: 90%;
+        /* top: 0; */
+        bottom: 35%;
+        width: 230px;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .search-icon {
+        right: 75%;
+        top: 10%;
+    }
+
+    .search-container {
+        position: relative;
+    }
+
+    .search-input {
+        position: absolute;
+        left: 50%;
+        /* top: 0; */
+        bottom: 35%;
+        width: 190px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .search-icon {
+        top: 10%;
+    }
+
+    .search-container {
+        position: relative;
+    }
+
+    .search-input {
+        position: absolute;
+        left: 50%;
+        width: 140px;
+    }
 }
