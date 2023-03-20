@@ -18,7 +18,7 @@ const Services = () => {
                                 <p className="card-text">We are responsible for server management, backup services, 
                                     software maintenance, security, technical support and more.
                                 </p>
-                                <a href="#contact" className="text-decoration-none care-read-btn">Contact</a>
+                                <a href="#contact" className="text-decoration-none card-read-btn">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -30,7 +30,7 @@ const Services = () => {
                                 <p className="card-text">This service includes all activities for keeping a close eye 
                                     on the website issues and fix them as they are discovered.
                                 </p>
-                                <a href="#contact" className="text-decoration-none care-read-btn">Contact</a>
+                                <a href="#contact" className="text-decoration-none card-read-btn">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -42,7 +42,7 @@ const Services = () => {
                                 <p className="card-text">We use our skills to tailor to your personal or business website, 
                                     Captivate your visitors and let your voice be heard.
                                 </p>
-                                <a href="#contact" className="text-decoration-none care-read-btn">Contact</a>
+                                <a href="#contact" className="text-decoration-none card-read-btn">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ const Services = () => {
                                 <p className="card-text">We provide comprehensive support and enhancement of web and Mobile 
                                     applications before, during and after their development.
                                 </p>
-                                <a href="#contact" className="text-decoration-none care-read-btn">Contact</a>
+                                <a href="#contact" className="text-decoration-none card-read-btn">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@ const Services = () => {
                                 <p className="card-text">Our UI design services are aimed at creating visually appealing, 
                                     brand strengthening digital interfaces that attract and retain users.
                                 </p>
-                                <a href="#contact" className="text-decoration-none care-read-btn">Contact</a>
+                                <a href="#contact" className="text-decoration-none card-read-btn">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ const Services = () => {
                                 <p className="card-text">Leverage our vast experience in mobile apps development to create 
                                     seamless mobile experiences your users will enjoy.
                                 </p>
-                                <a href="#contact" className="text-decoration-none care-read-btn">Contact</a>
+                                <a href="#contact" className="text-decoration-none card-read-btn">Contact</a>
                             </div>
                         </div>
                     </div>

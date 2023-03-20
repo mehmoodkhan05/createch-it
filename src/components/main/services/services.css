@@ -94,10 +94,6 @@ section.services-section .card:hover {
     background: linear-gradient(256.52deg, #A8D0E6 0%, #3EA3B7 100%);
 }
 
-section.services-section .card:hover .care-read-btn {
-    color: #000;
-}
-
 section.services-section .card .card-title {
     font-size: 16px;
     padding-top: 50px;
@@ -109,13 +105,14 @@ section.services-section .card p {
 }
 
 section.services-section .card .card-body a {
-    color: #51A8B1;
+    color: #367076;
     font-size: 14px;
     margin-top: 3px;
 }
 
 section.services-section .card .card-body a:hover {
     opacity: 0.7;
+    color: #37435D;
 }
 
 @media only screen and (max-width: 1024px) {
