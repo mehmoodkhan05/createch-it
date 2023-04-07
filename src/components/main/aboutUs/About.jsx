@@ -9,12 +9,12 @@ const About = () => {
             <div id="about-two-circle"></div>
             <div className="container text-center mt-5 mb-5">
                 <h1>About Us</h1>
-                <h2 className="fw-bold">Why Choose Us</h2>
-                <div className="main-section-PRG-1 mt-5"> 
-                    <p>
+                {/* <h2 className="fw-bold">Why Choose Us</h2> */}
+                <div className="main-section-heading"> 
+                    <h6>
                         We are a modern website building agency that <br /> can scale as your
                         business grow
-                    </p>
+                    </h6>
                 </div>
                 <div className="main-section-PRG-2 mt-5">
                     <p>
@@ -24,10 +24,10 @@ const About = () => {
                         intranet experiences using the latest and proven web technologies.
                     </p>
                 </div>
-                <button className="main-section-btn mt-5 mb-5 px-5 py-2">
+                {/* <button className="main-section-btn mt-5 mb-5 px-5 py-2">
                     More about us
                     <FaLongArrowAltRight className="btn-icon ms-2" />
-                </button>
+                </button> */}
             </div>
         </section>
     </>
