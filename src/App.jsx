@@ -6,6 +6,7 @@ import Main from "./components/main/Main";
 function App() {
   return (
     <>
+      {/* NAVBAR */}
       <Navbar
         home="Home"
         about="About"
@@ -13,7 +14,11 @@ function App() {
         testimonials="Testimonials"
         contact="Contact"
       />
+
+      {/* MAIN SECTIONS */}
       <Main />
+
+      {/* FOOTER */}
       <Footer />
     </>
   );

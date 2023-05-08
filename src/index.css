@@ -1,24 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "cera pro";
+    src: url(/src/assets/fonts/CeraPro-Regular.ttf) format("truetype");
+}
+
+:root {
+    --primary-color: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    --secondary-color: #4A4A4A;
+    --white-color: #fff;
+    --black-color: #000;
+}
+
 body {
-  font-family: "inter";
-  color: #4A4A4A;
-  font-size: 15px;
+    font-family: "cera pro", sans-serif;
+    font-weight: 400;
+    color: var(--secondary-color);
 }
 
-body a {
-  color: #367076;
+.section-heading {
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 200px;
+    color: var(--primary-color);
 }
 
-* ul li a:hover {
-  color: #37435D;
+.text-heading {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
 }
 
-body p {
-  font-size: 14px;
+.text-subHeading {
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
 }
 
-/* background: #52658C; secondary */
-/* #51A8B1; primary color */
+.text-body {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
 
-/* * {
-  border: 1px solid;
-} */
+.footer-info {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.btn {
+    font-family: 'Inter', sans-serif;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.btn-w-147 {
+    width: 147px;
+}
+
+.btn-w-227 {
+    width: 227px;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.lh-50 {
+    line-height: 50px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-26 {
+    font-size: 26px;
+}
+
+.fs-28 {
+    font-size: 28px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.fs-32 {
+    font-size: 32px;
+}
+
+.fs-34 {
+    font-size: 34px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.fs-38 {
+    font-size: 38px;
+}
+
+.fs-40 {
+    font-size: 40px;
+}
+
+.fs-42 {
+    font-size: 42px;
+}

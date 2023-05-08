@@ -1,25 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import "./navbar.css";
+import { HiBars3BottomRight } from "react-icons/hi2";
 
 const Navbar = (props) => {
-    const [isSearchOpen, setSearchOpen] = useState(false);
-
-    const handleSearchClick = () => {
-        setSearchOpen(!isSearchOpen);
-    };
-
-    const handleInputBlur = () => {
-        setSearchOpen(false);
-    };
-
-    // const toggleSearch = () => {
-    //     setSearchOpen(!searchOpen);
-    // };
-
     return (
         <>
-            <header className="navbar-header">
-                <nav className="navbar navbar-expand-lg w-100 bg-white fixed-top">
+            <header className="navbar-header sticky-top">
+                <nav className="navbar navbar-expand-lg bg-white">
                     <div className="container">
                         <a className="navbar-brand" href="#">
                             <img
@@ -37,7 +24,9 @@ const Navbar = (props) => {
                             aria-expanded="false"
                             aria-label="Toggle navigation"
                         >
-                            <span className="navbar-toggler-icon"></span>
+                            <span className="">
+                                <HiBars3BottomRight />
+                            </span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ms-auto">
@@ -67,33 +56,9 @@ const Navbar = (props) => {
                                     </a>
                                 </li>
                             </ul>
-                            <button className="header-btn p-1">Need Help?</button>
-                            <div className="search-container d-inline-block">
-                                <span onClick={handleSearchClick}>
-                                    <i
-                                        className="fa fa-search ms-xl-1 mt-1 search-icon"
-                                        aria-hidden="true"
-                                    ></i>
-                                </span>
-                                {isSearchOpen && (
-                                    <input
-                                        className="search-input"
-                                        type="search"
-                                        placeholder="Search..."
-                                        onBlur={handleInputBlur}
-                                    />
-                                )}
+                            <div>
+                                <button className="header-btn btn-w-147 p-1">Need Help?</button>
                             </div>
-                            {/* <div className="search-container position-relative">
-                                <button className="search-icon" onClick={toggleSearch}>
-                                    <i
-                                        className={`fas ${searchOpen ? "fa-times" : "fa-search"}`}
-                                    />
-                                </button>
-                                <div className={`search-bar position-absolute ${searchOpen ? "open" : ""}`}>
-                                    <input type="text" placeholder="Search..." />
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </nav>

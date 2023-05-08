@@ -1,67 +1,38 @@
-header.main-header {
-    background: linear-gradient(180deg, #F5F5F5 114.57%, rgba(255, 255, 255, 0) 186.33%);
+.hero-section {
+    padding-top: 180px;
 }
 
-.header-wraper h1 {
-    text-align: left;
+.hero-section .header-wraper .hero-body {
+    padding-right: 168px;
+    margin-top: 15px;
+}
+
+.hero-section .bottom-side h1 {
+    margin-top: 100px;
     background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-size: 42px;
 }
 
-.header-wraper p {
-    text-align: justify;
-    margin-top: 25px;
-}
-
-.header-2ndR {
-    display: flex;
-}
-
-.header-2ndR h1 {
-    margin-top: 60px;
-    font-size: 30px;
-}
-
-.header-2ndR p {
-    margin-top: -10px;
-}
-
-.header-image-side {
-    position: absolute;
-    right: 0;
-    top: 70px;
-    width: 100px;
-    z-index: 0;
-    opacity: 0.85;
-}
-
-@media only screen and (max-width: 1440px) {
-    .header-image {
-        margin-top: 50px;
-        width: 645px;
+@media screen and (width <=1399px) {
+    .hero-section .header-wraper .hero-body {
+        padding-right: 78px;
     }
 }
 
-
-@media only screen and (max-width: 1024px) {
-    .header-image {
-        margin-top: 80px;
-        width: 490px;
+@media screen and (width <=1024px) {
+    .hero-section .header-wraper .hero-body {
+        padding-right: 68px;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .header-image {
-        margin-top: 100px;
+@media screen and (width <=991px) {
+    .hero-section {
+        padding-top: 80px;
     }
-}
 
-@media only screen and (max-width: 425px) {
-    .header-image {
-        /* margin-top: 80px; */
-        width: 100%;
+    .hero-section .header-wraper .hero-body {
+        padding-right: 0px;
     }
 }
