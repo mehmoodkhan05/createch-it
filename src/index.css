@@ -71,6 +71,10 @@ body {
     font-weight: 500;
 }
 
+.pt-60 {
+    padding-top: 60px;
+}
+
 .lh-50 {
     line-height: 50px;
 }
