@@ -8,10 +8,6 @@
 .about-section .section-heading {
     position: absolute;
     opacity: 0.05;
-    background: var(--secondary-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
     top: 50px;
     left: 200px;
 }

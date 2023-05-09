@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import config from "../../config";
 
 const Footer = () => {
   return (
@@ -10,21 +11,11 @@ const Footer = () => {
           <div className="row">
             <div className="col-xl-3 mt-5 col-lg-4 col-md-4 col-sm-6 col-12">
               <img
-                className="footer-logo w-sm-100 w-xs-25"
-                src="./src/assets/images/footer-logo.png"
-                alt="logo"
+                src={config.miniLogo}
+                className="footer-logo"
+                alt={config.siteName}
               />
             </div>
-            {/* <div className="col-xl-3 mt-5 col-lg-4 col-md-6 col-sm-6 col-12">
-                <h4>About Company</h4>
-                <p>
-                  Createch IT Solutions offers a variety of website design and
-                  development services, from creating mobile web development
-                  solutions and responsive website designs, to building custom
-                  e-commerce and intranet experiences using the latest and
-                  proven web technologies.
-                </p>
-              </div> */}
             <div className="col-xl-3 mt-5 col-lg-4 col-md-4 col-sm-6 col-12">
               <h4>Quick Links</h4>
               <div className="footer-links">
@@ -73,7 +64,7 @@ const Footer = () => {
                     href="https://goo.gl/maps/WQBQci7bDsbtWDx59"
                     target="_blank"
                     className="text-decoration-none"
-                    style={{lineHeight: "0"}}
+                    style={{ lineHeight: "0" }}
                   >
                     Room No. 53-55, 3rd Floor Sultan Tower, Makanbagh Mingora,
                     Swat KP Pakistan
@@ -89,10 +80,16 @@ const Footer = () => {
                 </p>
               </div>
               <div className="mt-4">
-                <a href="https://www.facebook.com/createchitsolutions" target="_blank">
+                <a
+                  href="https://www.facebook.com/createchitsolutions"
+                  target="_blank"
+                >
                   <FaFacebookF className="footer-icon" />
                 </a>
-                <a href="https://www.linkedin.com/company/createch-it-solutions-pvt-ltd/" target="_blank">
+                <a
+                  href="https://www.linkedin.com/company/createch-it-solutions-pvt-ltd/"
+                  target="_blank"
+                >
                   <FaLinkedinIn className="ms-3 footer-icon" />
                 </a>
                 <a href="">

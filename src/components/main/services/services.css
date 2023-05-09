@@ -1,187 +1,41 @@
-section.services-section {
+.services-section {
     margin-top: 250px;
 }
 
-section.services-section h1 {
+.services-section .section-heading {
     position: absolute;
-    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.04;
-    font-size: 140px;
-    top: -12%;
-    right: 100px;
-    transition: all .5s ease-in-out;
+    opacity: 0.05;
+    top: -100px;
+    right: 0;
 }
 
-section.services-section h1:hover {
-    transition: all .5s ease-in-out;
-    padding-right: 5%;
-}
-
-section #services-two-circle {
-    position: absolute;
-    left: 35px;
-    top: 0;
-    opacity: 0.25;
-    transition: all .5s ease-in-out;
-}
-
-section #services-two-circle:hover {
-    transition: all .5s ease-in-out;
-    margin-left: 2.5%;
-}
-
-section #services-two-circle::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translateX(-50%);
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    border: 10px solid #ccc;
-}
-
-section #services-two-circle::after {
-    content: "";
-    position: absolute;
-    top: 68px;
-    left: 55px;
-    transform: translateX(-50%);
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border: 5px solid #ccc;
-}
-
-section.services-section h2 {
-    font-size: 28px;
+.services-section .card-parent {
     margin-top: 100px;
 }
 
-section.services-section .card-parent {
-    margin-bottom: 20px;
-    margin-top: 100px;
-}
-
-section.services-section .card-body .card-icon {
-    top: -40px;
-    right: 49px;
-    width: 80px;
-}
-
-section.services-section .card-body .icon-sm {
-    width: 65px;
-}
-
-section.services-section .card-body .icon-lg {
-    width: 78px;
-}
-
-section.services-section .card {
+.services-section .card {
     background: linear-gradient(256.52deg, rgba(168, 208, 230, 0.1) 0%, rgba(62, 163, 183, 0.1) 100%);
     border-radius: 10px;
     padding-left: 15px;
     border: none;
     transition: all .3s ease-in-out;
+    height: 100%;
 }
 
-section.services-section .card:hover {
+.services-section .card:hover {
     transform: scale(1.05);
     background: linear-gradient(256.52deg, #A8D0E6 0%, #3EA3B7 100%);
 }
 
-section.services-section .card .card-title {
-    font-size: 16px;
+.services-section .card-icons {
+    position: absolute;
+    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    border-radius: 5px;
+    padding: 25px;
+    top: -50px;
+    right: 50px;
+}
+
+.services-section .card .card-title {
     padding-top: 50px;
-}
-
-section.services-section .card p {
-    margin-top: 20px;
-    font-size: 14px;
-}
-
-section.services-section .card .card-body a {
-    color: #367076;
-    font-size: 14px;
-    margin-top: 3px;
-}
-
-section.services-section .card .card-body a:hover {
-    opacity: 0.7;
-    color: #37435D;
-}
-
-@media only screen and (max-width: 1024px) {
-
-    section.services-section h1 {
-        font-size: 115px;
-    }
-
-    section #services-two-circle {
-        left: 40px;
-    }
-
-    section #services-two-circle::before {
-        width: 70px;
-        height: 70px;
-    }
-
-    section.services-section .card {
-        height: 100%;
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-    section.services-section h1 {
-        font-size: 90px;
-        top: -5%;
-        left: 0;
-        width: 100%;
-    }
-
-    section.services-section .card {
-        height: 100%;
-    }
-
-}
-
-@media only screen and (max-width: 425px) {
-
-    section.services-section {
-        margin-top: 150px;
-    }
-
-    section.services-section h1 {
-        font-size: 70px;
-        top: -30px;
-        left: -10px;
-        width: 100%;
-    }
-
-    section.services-section .card-parent {
-        margin-top: 65px;
-        
-    }
-
-    section #services-two-circle{
-        top: -105px;
-    }
-
-}
-
-@media only screen and (max-width: 375px) {
-    section.services-section h1 {
-        font-size: 50px;
-        top: 70px;
-    }
-
-    section.services-section h2 {
-        font-size: 24px;
-    }
-
 }

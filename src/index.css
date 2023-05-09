@@ -75,6 +75,10 @@ body {
     line-height: 50px;
 }
 
+.lh-24 {
+    line-height: 24px;
+}
+
 .fs-12 {
     font-size: 12px;
 }

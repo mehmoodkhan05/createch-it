@@ -1,25 +1,29 @@
-import Header from "./header/Header";
-import About from "./aboutUs/About";
-import Services from "./services/Services";
-import Portfolio from "./portfolio/Portfolio";
-import Contact from "./contact/Contact";
-import Testimonial from "./testimonials/Testimonial";
-import Creative from "./creatives/Creative";
+import {
+  Header,
+  About,
+  Logos,
+  Services,
+  Portfolio,
+  Contact,
+  Testimonial,
+  Creative
+} from "./index"
 
 function Main() {
-  return (
-    <>
-      <main>
-        <Header />
-        <About />
-        <Services />
-        <Portfolio />
-        <Contact />
-        <Testimonial />
-        <Creative />
-      </main>
-    </>
-  );
-}
+    return (
+      <>
+        <main>
+          <Header />
+          <About />
+          <Logos />
+          <Services />
+          <Portfolio />
+          <Contact />
+          <Testimonial />
+          <Creative />
+        </main>
+      </>
+    );
+  }
 
 export default Main;

@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import { HiBars3BottomRight } from "react-icons/hi2";
+import config from "../../config";
 
 const Navbar = (props) => {
     return (
@@ -10,9 +11,9 @@ const Navbar = (props) => {
                     <div className="container">
                         <a className="navbar-brand" href="#">
                             <img
-                                src="./src/assets/images/CreatechitLogo.png"
+                                src={config.logo}
                                 className="header-logo"
-                                alt="Logo"
+                                alt={config.siteName}
                             />
                         </a>
                         <button
