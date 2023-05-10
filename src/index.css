@@ -75,12 +75,16 @@ body {
     padding-top: 60px;
 }
 
-.lh-50 {
-    line-height: 50px;
+.lh-20 {
+    line-height: 20px;
 }
 
 .lh-24 {
     line-height: 24px;
+}
+
+.lh-50 {
+    line-height: 50px;
 }
 
 .fs-12 {

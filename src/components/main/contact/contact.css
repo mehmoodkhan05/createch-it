@@ -1,190 +1,54 @@
-section.contact-section {
+.contact-section {
     margin-top: 250px;
     position: relative;
 }
 
-section.contact-section h1 {
-    font-size: 140px;
-    opacity: 0.04;
-    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    top: -26%;
-    left: 30%;
-    transition: all .5s ease-in-out;
-}
-
-section.contact-section h1:hover {
-    transition: all .5s ease-in-out;
-    transform: scale(1.2);
-    left: 280px;
-    letter-spacing: 5px;
-}
-
-.contact-section p {
-    margin-left: 50px;
-    font-size: 22.5px;
-}
-
-.contact-section h2 {
-    font-size: 34px;
-    margin-right: 7%;
+.contact-section .section-heading {
+    position: absolute;
+    opacity: 0.05;
+    top: -140px;
+    left: 550px;
 }
 
 .contact-section .contact-image {
-    width: 428px;
-    position: relative;
-    left: 124px;
-    margin-top: 60px;
-    transition: all .5s ease-in-out;
+    margin-top: 85px;
 }
 
-.contact-section .contact-image:hover {
-    transition: all .5s ease-in-out;
-    transform: scale(1.05);
+.contact-section .contact-form .form-select {
+    opacity: 0.4;
+    border: 1px solid var(--secondary-color);
+    padding: 15px 20px;
 }
 
-.contact-section .contact__PRG {
-    position: relative;
-    left: -50px;
+.contact-section .contact-form .form-select option {
+    opacity: 0.5;
+}
+
+.contact-section .contact-form .form-select:focus {
+    box-shadow: none;
+}
+
+.contact-section .contact-form {
+    margin-top: 65px;
 }
 
 .contact-section .contact-form .form-control {
-    width: 100%;
     opacity: 0.5;
-    border: 1px solid #4A4A4A;
-    border-radius: 5px;
-    padding: 10px 20px;
+    border: 1px solid var(--secondary-color);
+    padding: 15px 20px;
 }
 
-.contact-section .contact-form .form-control::placeholder {
-    font-size: 12px;
+.contact-section .contact-form .form-control:focus {
+    box-shadow: none;
 }
 
 .contact-form .contact-btn {
-    background: linear-gradient(225deg, #8BC5CB 47.4%, #51A8B1 100%);
-    border-radius: 100px;
-    color: #fff;
+    background: var(--primary-color);
+    color: var(--white-color);
     border: none;
     margin-top: 25px;
-    transition: all 300ms ease-in-out;
 }
 
-.contact-form .contact-btn:hover {
-    background-position: 153px;
-    transition: all 300ms ease-in-out;
-    color: #000;
-}
-
-@media only screen and (max-width: 1200px) {
-    section.contact-section h1 {
-        left: 15%;
-        width: 75%;
-    }
-
-    .contact-section .contact-image {
-        left: 0;
-        margin-top: 20px;
-    }
-
-}
-
-@media only screen and (max-width: 1024px) {
-    section.contact-section h1 {
-        font-size: 115px;
-        left: 25%;
-        width: 75%;
-    }
-
-    .contact-section .contact-image {
-        left: 0;
-    }
-
-    .contact-section h2 {
-        font-size: 28px;
-    }
-
-    .contact-section .contact__form {
-        margin-top: 10px;
-    }
-
-    section.contact-section {
-        margin-top: 150px;
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-
-    section.contact-section {
-        margin-top: 250px;
-    }
-
-    section.contact-section h1 {
-        font-size: 90px;
-        top: -8%;
-        left: 0;
-        width: 100%;
-    }
-
-    .contact-section .contact-image {
-        left: 0;
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    section.contact-section .contact__form {
-        position: relative;
-        left: 10px;
-    }
-
-    section.contact-section .contact-btn {
-        display: block;
-        margin: auto;
-        margin-top: 35px;
-    }
-
-    .contact-section .contact__PRG {
-        /* left: 0; */
-        margin-top: 25px;
-        width: 100%;
-        text-align: center;
-    }
-
-}
-
-@media only screen and (max-width: 425px) {
-    section.contact-section h1 {
-        font-size: 70px;
-        top: -55px;
-        /* left: 10px; */
-    }
-
-    .contact-section .contact-image {
-        display: flex;
-        margin: auto;
-        /* margin-top: 50px; */
-    }
-
-    .contact-section .contact__PRG {
-        margin-top: 30px;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    section.contact-section h1 {
-        font-size: 50px;
-        top: -30px;
-        width: 70%;
-    }
-
-    section.contact-section h2 {
-        font-size: 24px;
-    }
-
-    section.contact-section .contact__form {
-        left: 0;
-    }
-
+.contact-form .contact-btn-icon {
+    font-size: 24px;
 }
