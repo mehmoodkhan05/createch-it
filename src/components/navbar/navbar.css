@@ -1,19 +1,13 @@
-.navbar-header .navbar-brand .header-logo {
-    transition: all .5s ease-in-out;
-}
-
-.navbar-header .navbar-brand .header-logo:hover {
-    transition: all .5s ease-in-out;
-    padding-left: 5%;
-}
-
 .navbar-header .navbar-collapse .nav-link {
     margin-right: 20px;
     color: var(--secondary-color);
 }
 
 .navbar-header .navbar-collapse .nav-link:hover {
-    color: var(--primary-color);
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .navbar-header .navbar-toggler {

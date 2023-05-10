@@ -1,45 +1,41 @@
 import React from "react";
 import "./testimonial.css";
-// import { FaQuoteLeft } from 'react-icons/fa'
+import icon from "/src/assets/quote.svg";
+import image from "/src/assets/images/testimonial-image.jpg";
 
 const Testimonial = () => {
   return (
     <>
-      <section className="testimonial-section mb-5">
-        <div className="container position-relative">
-          <h1 className="position-absolute" id="testimonial">
-            Testimonials
-          </h1>
-          <h2 className="fw-bold">What our clients say</h2>
-          <div className="row mt-lg-5">
-            <div className="col-xl-3 col-lg-3 col-md-2 mt-5 mt-md-3 col-6">
-              <img
-                src="./src/assets/quote.svg"
-                className="testimonial-icon"
-                alt=""
-              />
+      <section
+        className="testimonial-section position-relative"
+        id="testimonial"
+      >
+        <h1 className="position-absolute section-heading">Testimonials</h1>
+        <div className="container">
+          <h2 className="text-heading">See Our Clients’ Feedback</h2>
+          <div className="row pt-80">
+            <div className="col-lg-3 col-md-4 d-lg-flex align-items-lg-center justify-content-lg-end">
+              <img src={icon} className="testimonial-icon img-fluid" alt="" />
             </div>
-            <div className="col-xl-3 col-lg-3 col-md-3 mt-5 mt-md-3 col-6">
-              <img
-                src="./src/assets/images/testimonial-image.jpg"
-                className="testimonial-image"
-                alt=""
-              />
+
+            <div className="col-lg-2 col-md-4">
+              <img src={image} className="testimonial-image img-fluid" alt="" />
             </div>
-            <div className="col-xl-6 col-lg-6 col-md-7 mt-5 p-4 mt-md-0">
-              <p className="testimonial-description">
+
+            <div className="col-lg-6 col-md-4">
+              <p className="text-body text-justify lh-24">
                 “A Super creative, forward thinking team at Createch IT
                 Solutions implicitly understood our vision for the brand and
                 were able to translate our ideas into a tangible and exciting
                 new concept.”
               </p>
-              <div className="testimonial-PRG mt-xl-5">
-                <p>
-                  <b>Sarah Jordan, CEO</b>
-                  <br />
-                  Some company
-                </p>
-              </div>
+              <p className="bottom-message pt-18">
+                <span className="text-heading fs-18 lh-22">
+                  Sarah Jordan, CEO
+                </span>
+                <br />
+                <span className="footer-info lh-22">Some company</span>
+              </p>
             </div>
           </div>
         </div>

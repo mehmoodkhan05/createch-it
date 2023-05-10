@@ -1,89 +1,10 @@
-section.creative-section {
-    margin-top: 250px;
+.creative-section {
+    padding-top: 250px;
 }
 
-section.creative-section h1 {
-    font-size: 150px;
-    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    opacity: 0.04;
-    left: 175px;
-    top: -95px;
-    transition: all .5s ease-in-out;
-}
-
-section.creative-section h1:hover {
-    transition: all .5s ease-in-out;
-    /* text-align: center; */
-    transform: scale(1.1);
-    padding-left: 10%;
-    padding-top: 1%;
-}
-
-section.creative-section img {
-    transition: all .5s ease-in-out;
-}
-
-section.creative-section .hover-left:hover {
-    transition: all .5s ease-in-out;
-    transform: rotate(-1.5deg);
-}
-
-section.creative-section .image-zoom:hover {
-    transition: all .5s ease-in-out;
-    transform: scale(1.05);
-}
-
-section.creative-section .hover-right:hover {
-    transition: all .5s ease-in-out;
-    transform: rotate(1.5deg);
-}
-
-section.creative-section h2 {
-    font-size: 34px;
-}
-
-section.creative-section p {
-    margin-top: 25px;
-    font-size: 12px;
-}
-
-@media only screen and (max-width: 1024px) {
-    section.creative-section h1 {
-        font-size: 115px;
-        left: 40px;
-    }
-
-}
-
-@media only screen and (max-width: 768px) {
-    section.creative-section h1 {
-        font-size: 80px;
-        top: -5%;
-        left: 0;
-    }
-
-}
-
-@media only screen and (max-width: 425px) {
-    section.creative-section h1 {
-        font-size: 70px;
-        top: -30px;
-        left: 50px;
-    }
-
-}
-
-@media only screen and (max-width: 375px) {
-    section.creative-section h1 {
-        font-size: 50px;
-        left: 70px;
-    }
-
-    section.creative-section h2 {
-        font-size: 24px;
-    }
-
+.creative-section h1 {
+    position: absolute;
+    opacity: 0.05;
+    top: -125px;
+    left: 80px;
 }

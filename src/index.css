@@ -46,7 +46,7 @@ body {
 .footer-info {
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 30px;
 }
 
 .text-justify {
@@ -71,16 +71,32 @@ body {
     font-weight: 500;
 }
 
+.pt-18 {
+    padding-top: 18px;
+}
+
 .pt-60 {
     padding-top: 60px;
+}
+
+.pt-80 {
+    padding-top: 80px;
 }
 
 .lh-20 {
     line-height: 20px;
 }
 
+.lh-22 {
+    line-height: 22px;
+
+}
 .lh-24 {
     line-height: 24px;
+}
+
+.lh-26 {
+    line-height: 26px;
 }
 
 .lh-50 {
