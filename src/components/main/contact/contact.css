@@ -1,11 +1,12 @@
 .contact-section {
     margin-top: 250px;
     position: relative;
+    scroll-margin-top: 310px;
 }
 
 .contact-section .section-heading {
     position: absolute;
-    opacity: 0.05;
+    opacity: 0.01;
     top: -140px;
     left: 550px;
 }

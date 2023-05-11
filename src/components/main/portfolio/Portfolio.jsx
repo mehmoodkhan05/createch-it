@@ -2,8 +2,12 @@ import React from "react";
 import "./portfolio.css";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { portfolios } from "../../../data/portfolios";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
+
+  const sixPortfolios = portfolios.slice(0, portfolios.length > 6 ? 6 : portfolios.length);
+
   return (
     <>
       <section className="portfolio-section" id="portfolio">
@@ -11,7 +15,7 @@ const Portfolio = () => {
           <h1 className="section-heading">Portfolio</h1>
           <h2 className="text-center text-heading">Portfolio</h2>
           <div className="row pt-60">
-            {portfolios.map((protfolio) => {
+            {sixPortfolios.map((protfolio) => {
               return (
                 <div
                   key={protfolio.id}
@@ -27,10 +31,10 @@ const Portfolio = () => {
             })}
 
             <div className="text-center">
-              <button className="btn btn-w-227 portfolio-btn p-2">
+              <Link to="/portfolio" className="btn btn-w-227 portfolio-btn p-2">
                 View More
                 <HiArrowLongRight className="portfolio-btn-icon ms-2" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>

@@ -2,6 +2,8 @@ import React from "react";
 import "./navbar.css";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import config from "../../config";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = (props) => {
     return (
@@ -9,13 +11,13 @@ const Navbar = (props) => {
             <header className="navbar-header sticky-top">
                 <nav className="navbar navbar-expand-lg bg-white">
                     <div className="container">
-                        <a className="navbar-brand" href="#">
+                        <Link className="navbar-brand" to="/">
                             <img
                                 src={config.logo}
                                 className="header-logo"
                                 alt={config.siteName}
                             />
-                        </a>
+                        </Link>
                         <button
                             className="navbar-toggler"
                             type="button"
@@ -32,29 +34,29 @@ const Navbar = (props) => {
                         <div className="collapse navbar-collapse" id="navbarNav">
                             <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link" aria-current="page" href="#home">
+                                    <HashLink className="nav-link active" smooth aria-current="page" to="/#">
                                         {props.home}
-                                    </a>
+                                    </HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#about">
+                                    <HashLink className="nav-link" smooth aria-current="page" to="/#about">
                                         {props.about}
-                                    </a>
+                                    </HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#portfolio">
+                                    <HashLink className="nav-link" to="/#portfolio">
                                         {props.portfolio}
-                                    </a>
+                                    </HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#testimonial">
+                                    <HashLink className="nav-link" to="/#testimonial">
                                         {props.testimonials}
-                                    </a>
+                                    </HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#contact">
+                                    <HashLink className="nav-link" to="/#contact">
                                         {props.contact}
-                                    </a>
+                                    </HashLink>
                                 </li>
                             </ul>
                             <div>

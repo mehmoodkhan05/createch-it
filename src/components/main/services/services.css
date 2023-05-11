@@ -4,7 +4,7 @@
 
 .services-section .section-heading {
     position: absolute;
-    opacity: 0.05;
+    opacity: 0.01;
     top: -100px;
     right: 0;
 }

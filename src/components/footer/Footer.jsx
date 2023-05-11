@@ -2,6 +2,7 @@ import React from "react";
 import "./footer.css";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import config from "../../config";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -22,19 +23,19 @@ const Footer = () => {
               <div className="footer-info">
                 <ul className="list-unstyled p-0">
                   <li>
-                    <a href="#">Home</a>
+                    <Link to="#">Home</Link>
                   </li>
                   <li>
-                    <a href="#">About Us</a>
+                    <Link to="#">About Us</Link>
                   </li>
                   <li>
-                    <a href="#">Portfolio</a>
+                    <Link to="#">Portfolio</Link>
                   </li>
                   <li>
-                    <a href="#">Testimonials</a>
+                    <Link to="#">Testimonials</Link>
                   </li>
                   <li>
-                    <a href="#">Send Us</a>
+                    <Link to="#">Send Us</Link>
                   </li>
                 </ul>
               </div>
@@ -45,19 +46,19 @@ const Footer = () => {
               <div className="footer-info">
                 <ul className="list-unstyled p-0">
                   <li>
-                    <a href="">Domain & Hosting</a>
+                    <Link to="">Domain & Hosting</Link>
                   </li>
                   <li>
-                    <a href="">Management</a>
+                    <Link to="">Management</Link>
                   </li>
                   <li>
-                    <a href="">Website Maintenanace</a>
+                    <Link to="">Website Maintenanace</Link>
                   </li>
                   <li>
-                    <a href="">Website Customization</a>
+                    <Link to="">Website Customization</Link>
                   </li>
                   <li>
-                    <a href="">UI Design</a>
+                    <Link to="">UI Design</Link>
                   </li>
                 </ul>
               </div>
@@ -67,60 +68,60 @@ const Footer = () => {
               <h4 className="text-heading fs-16 lh-20">Contact</h4>
               <div className="footer-info">
                 <p>
-                  <a
-                    href="https://goo.gl/maps/WQBQci7bDsbtWDx59"
+                  <Link
+                    to="https://goo.gl/maps/WQBQci7bDsbtWDx59"
                     target="_blank"
                     className="text-decoration-none text-break"
                   >
                     Office: 53-55, 4th Floor Sultan Tower, Makanbagh Mingora,
                     Swat KP Pakistan
-                  </a>
+                  </Link>
                 </p>
 
                 <p className="lh-24">
-                  <a
-                    href="mailto:info@createchit.com"
+                  <Link
+                    to="mailto:info@createchit.com"
                     className="text-decoration-none"
                   >
                     info@createchit.com
-                  </a>
+                  </Link>
                 </p>
 
                 <p className="lh-24">
-                  <a
-                    href="tel:+923369201441"
+                  <Link
+                    to="tel:+923369201441"
                     className="text-decoration-none"
                     target="_blank"
                   >
                     +92 336 9201441
-                  </a>
+                  </Link>
                   &nbsp; | &nbsp;
-                  <a
-                    href="http://wa.me/+923365238082"
+                  <Link
+                    to="http://wa.me/+923365238082"
                     className="text-decoration-none"
                     target="_blank"
                   >
                     +92 336 5238082
-                  </a>
+                  </Link>
                 </p>
               </div>
 
               <div className="mt-4">
-                <a
-                  href="https://www.facebook.com/createchitsolutions"
+                <Link
+                  to="https://www.facebook.com/createchitsolutions"
                   target="_blank"
                 >
                   <FaFacebookF className="footer-icon" />
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/createch-it-solutions-pvt-ltd/"
+                </Link>
+                <Link
+                  to="https://www.linkedin.com/company/createch-it-solutions-pvt-ltd/"
                   target="_blank"
                 >
                   <FaLinkedinIn className="ms-3 footer-icon" />
-                </a>
-                <a href="#" target="_blank">
+                </Link>
+                <Link to="#" target="_blank">
                   <FaTwitter className="ms-3 footer-icon" />
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -128,9 +129,9 @@ const Footer = () => {
           <div className="footer-copyright">
             <p className="text-center footer-info mb-0">
               © 2020 &nbsp;
-              <a href="#" className="site_link">
+              <Link to="#" className="site_link">
                 Createch IT Solutions
-              </a>
+              </Link>
               . All Rights Reserved.
             </p>
           </div>

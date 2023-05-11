@@ -1,0 +1,27 @@
+.more_about-page {
+    padding-top: 80px;
+}
+
+.more_about-page .section-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.01;
+}
+
+.more_about-page .text-heading {
+    padding: 0 200px;
+}
+
+.more_about-page .text-body {
+    padding: 0 50px;
+}
+
+.more_about-page .video-container {
+    padding-top: 110px;
+}
+
+.more_about-page .desc-container {
+    padding-top: 140px;
+}

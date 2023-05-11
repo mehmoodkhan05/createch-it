@@ -1,8 +1,10 @@
 import React from "react";
 import "./about.css";
 import { HiArrowLongRight } from "react-icons/hi2";
+import { Link } from "react-router-dom";
 
 const About = () => {
+    
     return (
         <>
             <section className="about-section position-relative" id="about">
@@ -31,10 +33,10 @@ const About = () => {
                             proven web technologies.
                         </p>
                     </div>
-                    <button className="about-btn btn btn-w-227 mt-5 p-2">
+                    <Link to="/aboutUs" className="about-btn btn btn-w-227 mt-5 p-2">
                         More about us
                         <HiArrowLongRight className="btn-icon ms-2" />
-                    </button>
+                    </Link>
                 </div>
             </section>
         </>

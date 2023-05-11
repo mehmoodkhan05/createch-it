@@ -1,10 +1,11 @@
 .testimonial-section {
     margin-top: 250px;
+    scroll-margin-top: 350px;
 }
 
 .testimonial-section .section-heading {
     position: absolute;
-    opacity: 0.05;
+    opacity: 0.01;
     right: 0;
     top: -75px;
     font-weight: 400;
