@@ -1,50 +1,50 @@
 export let portfolios = [
     {
-        id: "1",
+        id: "8",
         name: "",
         order: 1,
-        image: "./src/assets/images/portfolio-1.png"
+        image: "./src/assets/homePortfolios/portfolio-7.jpg"
+    },
+    {
+        id: "1",
+        name: "",
+        order: 2,
+        image: "./src/assets/homePortfolios/portfolio-1.jpg"
     },
     {
         id: "2",
         name: "",
-        order: 1,
-        image: "./src/assets/images/portfolio-2.png"
+        order: 3,
+        image: "./src/assets/homePortfolios/portfolio-2.jpg"
     },
     {
         id: "3",
         name: "",
-        order: 2,
-        image: "./src/assets/images/portfolio-3.jpg"
+        order: 5,
+        image: "./src/assets/homePortfolios/portfolio-3.jpg"
     },
     {
         id: "4",
         name: "",
-        order: 2,
-        image: "./src/assets/images/portfolio-4.jpg"
+        order: 4,
+        image: "./src/assets/homePortfolios/portfolio-4.jpg"
     },
     {
         id: "5",
         name: "",
-        order: 2,
-        image: "./src/assets/images/portfolio-5.jpg"
+        order: 7,
+        image: "./src/assets/homePortfolios/portfolio-5.jpg"
     },
     {
         id: "6",
         name: "",
-        order: 2,
-        image: "./src/assets/images/portfolio-6.jpg"
+        order: 8,
+        image: "./src/assets/homePortfolios/portfolio-6.jpg"
     },
     {
         id: "7",
         name: "",
-        order: 2,
-        image: "./src/assets/images/portfolio-6.jpg"
-    },
-    {
-        id: "8",
-        name: "",
-        order: 2,
-        image: "./src/assets/images/portfolio-6.jpg"
+        order: 6,
+        image: "./src/assets/homePortfolios/portfolio-4.jpg"
     },
 ]

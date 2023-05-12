@@ -1,0 +1,33 @@
+.more_portfolio-page {
+    padding-top: 80px;
+}
+
+.more_portfolio-page .section-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.01;
+}
+
+.more_portfolio-page .text-heading {
+    padding: 0 200px;
+}
+
+.more_portfolio-page .text-body {
+    padding: 0 50px;
+}
+
+.more_portfolio-page .images-container {
+    padding-top: 130px;
+}
+
+.more_portfolio-page .images-container .portfolios-inner {
+    transition: all .3s ease-in-out;
+    filter: grayscale(100);
+}
+
+.more_portfolio-page .images-container .portfolios-inner:hover {
+    transform: scale(1.01);
+    filter: grayscale(0);
+}

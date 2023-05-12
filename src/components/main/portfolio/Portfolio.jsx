@@ -5,8 +5,15 @@ import { portfolios } from "../../../data/portfolios";
 import { Link } from "react-router-dom";
 
 const Portfolio = () => {
-
-  const sixPortfolios = portfolios.slice(0, portfolios.length > 6 ? 6 : portfolios.length);
+  const specificPortfolio = portfolios.filter(
+    (el) =>
+      el.id == 1 ||
+      el.id == 2 ||
+      el.id == 3 ||
+      el.id == 4 ||
+      el.id == 5 ||
+      el.id == 6     
+  );
 
   return (
     <>
@@ -15,7 +22,7 @@ const Portfolio = () => {
           <h1 className="section-heading">Portfolio</h1>
           <h2 className="text-center text-heading">Portfolio</h2>
           <div className="row pt-60">
-            {sixPortfolios.map((protfolio) => {
+            {specificPortfolio.map((protfolio) => {
               return (
                 <div
                   key={protfolio.id}
