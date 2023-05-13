@@ -1,8 +1,49 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./moreAbout.css";
-import image from "/src/assets/video.png"
+import video from "/src/assets/video.mp4";
+import { FaRegPlayCircle } from "react-icons/fa";
 
 const MoreAbout = () => {
+    const [isPlaying, setIsPlaying] = useState(false);
+    const [showPlayButton, setShowPlayButton] = useState(true);
+    const videoRef = useRef(null);
+
+    const togglePlay = () => {
+        if (isPlaying) {
+            videoRef.current.pause();
+        } else {
+            videoRef.current.play();
+        }
+        setIsPlaying(!isPlaying);
+        setShowPlayButton(false);
+    };
+    
+    useEffect(() => {
+        const options = {
+            root: null,
+            rootMargin: "0px",
+            threshold: 0.5,
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+                if (entry.target === videoRef.current) {
+                    if (entry.isIntersecting) {
+                        videoRef.current.play();
+                    } else {
+                        videoRef.current.pause();
+                    }
+                }
+            });
+        }, options);
+
+        observer.observe(videoRef.current);
+    }, []);
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <>
             <div className="more_about-page">
@@ -22,10 +63,31 @@ const MoreAbout = () => {
                         </p>
                     </div>
 
-                    <div className="video-container">
-                        <img
-                            src={image}
+                    <div className="video-container position-relative">
+                        <video
+                            src={video}
+                            className="w-100"
+                            muted
+                            ref={videoRef}
+                            onClick={togglePlay}
+                            onPause={() => {
+                                setIsPlaying(false);
+                                setShowPlayButton(true);
+                            }}
+                            onPlay={() => {
+                                setIsPlaying(true);
+                                setShowPlayButton(false);
+                            }}
+                            onEnded={() => {
+                                setIsPlaying(false);
+                                setShowPlayButton(true);
+                            }}
                         />
+                        {showPlayButton && (
+                            <div className="play-pause-button" onClick={togglePlay}>
+                                <FaRegPlayCircle />
+                            </div>
+                        )}
                     </div>
 
                     <div className="desc-container">
@@ -67,4 +129,4 @@ const MoreAbout = () => {
     );
 };
 
-export default MoreAbout
+export default MoreAbout;

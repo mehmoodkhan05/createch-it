@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./morePortfolio.css";
 import { portfolios } from "../../data/portfolios";
 
 const MorePortfolio = () => {
   const portfolioImages = portfolios.sort((a, b) => a.order - b.order);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

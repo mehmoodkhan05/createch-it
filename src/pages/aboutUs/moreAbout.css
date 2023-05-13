@@ -25,3 +25,13 @@
 .more_about-page .desc-container {
     padding-top: 140px;
 }
+
+.more_about-page .play-pause-button {
+    color: var(--white-color);
+    font-size: 90px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+}
