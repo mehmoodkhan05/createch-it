@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 const Portfolio = () => {
   const specificPortfolio = portfolios.filter(
     (el) =>
-      el.id == 1 ||
       el.id == 2 ||
       el.id == 3 ||
       el.id == 4 ||
       el.id == 5 ||
-      el.id == 6     
+      el.id == 6 ||
+      el.id == 8
   );
 
   return (
@@ -26,11 +26,11 @@ const Portfolio = () => {
               return (
                 <div
                   key={protfolio.id}
-                  className="col-xl-2 col-lg-2 p-0 col-md-4 col-sm-4 col-6 pe-1 position-relative"
+                  className="col-lg-2 p-0 col-sm-4 col-6 position-relative"
                 >
                   <img
                     src={protfolio.image}
-                    className="img-fluid portfolio-images"
+                    className="img-fluid portfolio-images w-100"
                     alt="portfolio"
                   />
                 </div>

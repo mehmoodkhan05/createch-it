@@ -3,9 +3,7 @@ import "./morePortfolio.css";
 import { portfolios } from "../../data/portfolios";
 
 const MorePortfolio = () => {
-  const portfolioImages = portfolios.sort((a, b) =>
-    a.order - b.order
-  );
+  const portfolioImages = portfolios.sort((a, b) => a.order - b.order);
 
   return (
     <>
@@ -34,7 +32,7 @@ const MorePortfolio = () => {
                     <img
                       src={portfolios.image}
                       alt=""
-                      className="img-fluid"
+                      className="img-fluid portfolios-inner"
                     />
                   </div>
                 );

@@ -4,9 +4,8 @@
 }
 
 .portfolio-section .portfolio-images {
-    display: block;
     z-index: 2;
-    box-shadow: 0 100px 0 0 #fafafa;
+    /* box-shadow: 0 100px 0 0 #fafafa; */
     transition: all .3s ease-in-out;
 }
 
