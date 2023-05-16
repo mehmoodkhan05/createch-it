@@ -42,7 +42,6 @@
 
 @media screen and (width <=991px) {
     .services-section .section-heading {
-        font-size: 140px;
-        right: 80px;
+        display: none;
     }
 }

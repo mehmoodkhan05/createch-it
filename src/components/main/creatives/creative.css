@@ -11,8 +11,6 @@
 
 @media screen and (width <=991px) {
     .creative-section .section-heading {
-        font-size: 140px;
-        left: 50px;
+        display: none;
     }
-
 }

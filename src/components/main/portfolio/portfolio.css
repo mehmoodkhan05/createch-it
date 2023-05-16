@@ -32,7 +32,6 @@
 
 @media screen and (width <=991px) {
     .portfolio-section .section-heading {
-        font-size: 140px;
-        left: 0;
+        display: none;
     }
 }

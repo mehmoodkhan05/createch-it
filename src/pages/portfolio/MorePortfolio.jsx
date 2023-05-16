@@ -32,7 +32,7 @@ const MorePortfolio = () => {
             <div className="row">
               {portfolios.map((portfolios) => {
                 return (
-                  <div className="col-lg-3" key={portfolios.id}>
+                  <div className="col-lg-3 col-md-6 col-12" key={portfolios.id}>
                     <img
                       src={portfolios.image}
                       alt=""

@@ -26,9 +26,7 @@
 
 @media screen and (width <=991px) {
     .testimonial-section .section-heading {
-        font-size: 140px;
-        left: 50px;
-        top: -100px;
+        display: none;
     }
 
     .testimonial-section .text-body {

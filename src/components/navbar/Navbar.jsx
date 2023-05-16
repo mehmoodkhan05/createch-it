@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
 import { HiBars3BottomRight } from "react-icons/hi2";
 import config from "../../config";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { TiTimes } from "react-icons/ti";
 
 const Navbar = (props) => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    function handleMenuClick() {
+        setIsMenuOpen(!isMenuOpen);
+    }
+
     return (
         <>
             <header className="navbar-header fixed-top">
@@ -19,7 +26,8 @@ const Navbar = (props) => {
                             />
                         </Link>
                         <button
-                            className="navbar-toggler"
+                            className={`navbar-toggler p-0 ${isMenuOpen ? "open" : ""}`}
+                            onClick={handleMenuClick}
                             type="button"
                             data-bs-toggle="collapse"
                             data-bs-target="#navbarNav"
@@ -28,7 +36,7 @@ const Navbar = (props) => {
                             aria-label="Toggle navigation"
                         >
                             <span className="">
-                                <HiBars3BottomRight />
+                                {isMenuOpen ? <TiTimes /> : <HiBars3BottomRight />}
                             </span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">

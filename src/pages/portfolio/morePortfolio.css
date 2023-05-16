@@ -31,3 +31,22 @@
     transform: scale(1.01);
     filter: grayscale(0);
 }
+
+@media screen and (width <=991px) {
+    .more_portfolio-page .section-heading {
+        font-size: 140px;
+    }
+
+    .more_portfolio-page .text-heading {
+        padding: 170px 0 0 0 !important;
+    }
+
+    .more_portfolio-page .text-body {
+        padding: 0;
+    }
+
+    .more_portfolio-page .images-container {
+        padding-bottom: 175px;
+    }
+
+}
