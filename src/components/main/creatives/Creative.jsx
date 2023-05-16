@@ -9,7 +9,7 @@ const Creative = () => {
                 <div className="container position-relative">
                     <h1 className="section-heading">Creatives</h1>
                     <h2 className="text-center text-heading">Our Awesome Team</h2>
-                    <div className="row text-center">
+                    <div className="row text-center pt-md-4">
                         <div className="col-lg-4 col-md-6 col-sm-6 p-sm-1 ps-lg-2 mt-xl-5">
                             <img src={team_1} alt="" className="img-fluid" />
                             <p className="pt-3">

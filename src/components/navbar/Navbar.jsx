@@ -8,7 +8,7 @@ import { HashLink } from "react-router-hash-link";
 const Navbar = (props) => {
     return (
         <>
-            <header className="navbar-header sticky-top">
+            <header className="navbar-header fixed-top">
                 <nav className="navbar navbar-expand-lg bg-white">
                     <div className="container">
                         <Link className="navbar-brand" to="/">

@@ -23,3 +23,25 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
+
+@media screen and (width <=991px) {
+    .testimonial-section .section-heading {
+        font-size: 140px;
+        left: 50px;
+        top: -100px;
+    }
+
+    .testimonial-section .text-body {
+        padding-right: 0;
+        padding-top: 0;
+    }
+
+    .testimonial-section .testimonial-icon {
+        padding-left: 80px;
+    }
+
+    .testimonial-section .bottom-message {
+        padding-top: 0 !important;
+    }
+
+}

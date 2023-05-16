@@ -1,14 +1,14 @@
 .about-section {
     margin-top: 150px;
     background: linear-gradient(213.9deg, #4697ba 0%, #afc4b5 100%);
-    padding: 100px 0;
+    padding: 180px 0;
     scroll-margin-top: 65px;
 }
 
 .about-section .section-heading {
     position: absolute;
     opacity: 0.03;
-    top: 50px;
+    top: 120px;
     left: 200px;
 }
 
@@ -45,10 +45,14 @@
 }
 
 @media screen and (width <=991px) {
+    .about-section {
+        padding: 140px 0;
+    }
+
     .about-section .section-heading {
         font-size: 140px;
-        top: 40px;
-        left: 100px;
+        top: 95px;
+        left: 0px;
     }
 
     .about-section .text-subHeading {

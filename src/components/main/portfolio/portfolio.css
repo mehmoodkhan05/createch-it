@@ -1,11 +1,10 @@
 .portfolio-section {
     margin-top: 250px;
-    scroll-margin-top: 200px;
+    scroll-margin-top: 170px;
 }
 
 .portfolio-section .portfolio-images {
     z-index: 2;
-    /* box-shadow: 0 100px 0 0 #fafafa; */
     transition: all .3s ease-in-out;
 }
 
@@ -29,4 +28,11 @@
 
 .portfolio-section .portfolio-btn-icon {
     font-size: 24px;
+}
+
+@media screen and (width <=991px) {
+    .portfolio-section .section-heading {
+        font-size: 140px;
+        left: 0;
+    }
 }

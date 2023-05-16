@@ -19,13 +19,13 @@ const Header = () => {
                             </p>
                             <div className="bottom-side justify-content-md-center justify-content-lg-start d-flex">
                                 <div>
-                                    <h1 className="text-heading mb-0 fs-40">
+                                    <h1 className="text-heading mb-0 fs-40 text-md-center text-lg-start">
                                         300+
                                     </h1>
                                     <p className="fw-500 fs-16">Successful Projects</p>
                                 </div>
                                 <div style={{ marginLeft: "120px" }}>
-                                    <h1 className="text-heading mb-0 fs-40">
+                                    <h1 className="text-heading mb-0 fs-40 text-md-center text-lg-start">
                                         150+
                                     </h1>
                                     <p className="fw-500 fs-16">Satisfied Customers</p>

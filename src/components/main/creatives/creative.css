@@ -2,9 +2,17 @@
     padding-top: 250px;
 }
 
-.creative-section h1 {
+.creative-section .section-heading {
     position: absolute;
     opacity: 0.01;
     top: -125px;
     left: 80px;
+}
+
+@media screen and (width <=991px) {
+    .creative-section .section-heading {
+        font-size: 140px;
+        left: 50px;
+    }
+
 }

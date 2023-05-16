@@ -53,3 +53,11 @@
 .contact-form .contact-btn-icon {
     font-size: 24px;
 }
+
+@media screen and (width <=991px) {
+    .contact-section .section-heading {
+        font-size: 140px;
+        left: 150px;
+    }
+
+}
