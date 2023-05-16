@@ -50,24 +50,15 @@
     }
 
     .about-section .section-heading {
-        font-size: 140px;
-        top: 95px;
-        left: 0px;
+        display: none;
     }
 
     .about-section .text-subHeading {
         padding: 0 40px;
     }
-
 }
 
 @media screen and (width <=767px) {
-    .about-section .section-heading {
-        font-size: 120px;
-        top: 50px;
-        left: 50px;
-    }
-
     .about-section .text-subHeading {
         padding: 0;
     }

@@ -8,7 +8,7 @@ const Header = () => {
             <section className="hero-section" id="home">
                 <div className="container">
                     <div className="row">
-                        <div className="col-xl-6 col-lg-7 header-wraper order-2 order-lg-1 mb-md-5 mb-lg-0 mt-md-0 d-flex flex-column justify-content-center">
+                        <div className="col-xl-6 col-lg-7 header-wrapermb-md-5 mb-lg-0 mt-md-0 d-flex flex-column justify-content-center">
                             <h1 className="text-md-center text-lg-start text-heading fs-42 lh-50 pt-5 pt-lg-0">
                                 Creative Solutions <br /> for your Complex Ideas!
                             </h1>
@@ -32,7 +32,7 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-5 order-1 order-lg-2 text-md-center text-lg-start">
+                        <div className="col-xl-6 col-lg-5 text-md-center text-lg-start">
                             <img
                                 src={image}
                                 className="header-image img-fluid"

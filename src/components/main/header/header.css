@@ -36,3 +36,9 @@
         padding-right: 0px;
     }
 }
+
+@media screen and (width <= 575px) {
+    .hero-section {
+        background: linear-gradient(to top left, rgba(139, 197, 203, 0.29) 32.03%, rgba(247, 247, 247, 0) 100%);
+    }
+}

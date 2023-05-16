@@ -24,6 +24,12 @@
     background-clip: text;
 }
 
+@media screen and (992px <=width <=1199px) {
+    .testimonial-section .testimonial-image {
+        padding-top: 50px;
+    }
+}
+
 @media screen and (width <=991px) {
     .testimonial-section .section-heading {
         display: none;
