@@ -1,4 +1,9 @@
-.logos-section .background {
-    background: #212121;
+.logos-section .logos_desktop {
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
 }
 
+.logos-section .logos_desktop:hover {
+    transform: scale(1.05);
+    filter: grayscale(0);
+}

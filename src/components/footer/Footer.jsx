@@ -10,7 +10,7 @@ const Footer = () => {
       <footer className="main-footer">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 mt-5 col-md-4 text-sm-center text-md-start col-12">
+            <div className="col-lg-3 mt-5 col-md-4 text-center text-md-start col-12">
               <img
                 src={config.miniLogo}
                 className="footer-logo"
@@ -18,7 +18,7 @@ const Footer = () => {
               />
             </div>
 
-            <div className="col-lg-3 mt-5 col-md-4 col-sm-6 col-12">
+            <div className="col-lg-3 mt-5 col-md-4 col-6 ps-5">
               <h4 className="text-heading fs-16 lh-20">Quick Links</h4>
               <div className="footer-info">
                 <ul className="list-unstyled p-0">
@@ -41,7 +41,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 mt-5 col-md-4 col-sm-6 col-12">
+            <div className="col-lg-3 mt-5 col-md-4 col-6">
               <h4 className="text-heading fs-16 lh-20">What We Do</h4>
               <div className="footer-info">
                 <ul className="list-unstyled p-0">
@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 mt-5 col-12 justify-content-center text-md-center text-lg-start">
+            <div className="col-lg-3 mt-5 col-12 justify-content-center text-md-center text-lg-start ps-5">
               <h4 className="text-heading fs-16 lh-20">Contact</h4>
               <div className="footer-info">
                 <p>

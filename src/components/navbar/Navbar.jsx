@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import config from "../../config";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const Navbar = (props) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -25,7 +26,7 @@ const Navbar = (props) => {
                             />
                         </Link>
                         <button
-                            className={`navbar-toggler p-0 ${isMenuOpen ? "open" : ""}`}
+                            className={`navbar-toggler d-lg-none ${isMenuOpen ? "open" : ""}`}
                             onClick={handleMenuClick}
                             type="button"
                             data-bs-toggle="collapse"
@@ -39,7 +40,7 @@ const Navbar = (props) => {
                             </span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
-                            <ul className="navbar-nav ms-auto">
+                            <ul className="navbar-nav ms-auto text-center text-lg-start">
                                 <li className="nav-item">
                                     <HashLink className="nav-link active" smooth aria-current="page" to="/#">
                                         {props.home}
@@ -55,19 +56,48 @@ const Navbar = (props) => {
                                         {props.portfolio}
                                     </HashLink>
                                 </li>
-                                <li className="nav-item">
+                                {/* <li className="nav-item d-none d-lg-block">
                                     <HashLink className="nav-link" to="/#testimonial">
                                         {props.testimonials}
                                     </HashLink>
-                                </li>
+                                </li> */}
                                 <li className="nav-item">
                                     <HashLink className="nav-link" to="/#contact">
                                         {props.contact}
                                     </HashLink>
                                 </li>
-                            </ul>
-                            <div>
+                            </ul>                          
+
+                            <div className="d-none d-sm-block">
                                 <button className="header-btn btn-w-147 p-1">Need Help?</button>
+                            </div>
+
+                            <div className="mt-3 me-3 d-block d-lg-none text-center text-lg-start">
+                                <Link
+                                    to="https://www.facebook.com/createchitsolutions"
+                                    target="_blank"
+                                >
+                                    <FaFacebookF className="navbar-icon" />
+                                </Link>
+                                <Link
+                                    to="https://www.linkedin.com/company/createch-it-solutions-pvt-ltd/"
+                                    target="_blank"
+                                >
+                                    <FaLinkedinIn className="ms-3 navbar-icon" />
+                                </Link>
+                                <Link to="#" target="_blank">
+                                    <FaTwitter className="ms-3 navbar-icon" />
+                                </Link>
+                            </div>
+
+                            <div className="navbar-copyright d-block d-lg-none pt-4">
+                                <p className="text-center navbar-info mb-0">
+                                    © 2020 &nbsp;
+                                    <Link to="/" className="site_link">
+                                        Createch IT Solutions
+                                    </Link>
+                                    . All Rights Reserved.
+                                </p>
                             </div>
                         </div>
                     </div>

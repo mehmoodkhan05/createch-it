@@ -63,6 +63,10 @@ body {
     width: 147px;
 }
 
+.btn-w-175 {
+    width: 175px;
+}
+
 .btn-w-227 {
     width: 227px;
 }
@@ -97,8 +101,8 @@ body {
 
 .lh-22 {
     line-height: 22px;
-
 }
+
 .lh-24 {
     line-height: 24px;
 }
@@ -173,4 +177,28 @@ body {
 
 .fs-42 {
     font-size: 42px;
+}
+
+@media screen and (width <=575px) {
+    .text-heading {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .text-body {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .text-subHeading {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .btn-w-227 {
+        width: 200px;
+    }
 }

@@ -28,7 +28,7 @@ const MorePortfolio = () => {
             </p>
           </div>
 
-          <div className="images-container">
+          <div className="images-container text-center text-sm-start">
             <div className="row">
               {portfolios.map((portfolios) => {
                 return (

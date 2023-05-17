@@ -63,3 +63,41 @@
         padding: 0;
     }
 }
+
+@media screen and (width <=575px) {
+    .about-section {
+        background: none;
+        margin-top: 0;
+        padding: 60px 0 60px 0;
+    }
+
+    .about-section .text-heading {
+        text-align: start;
+    }
+
+    .about-section .text-subHeading {
+        text-align: start;
+        padding-right: 70px;
+        font-weight: bold;
+    }
+
+    .about-section .text-body {
+        text-align: justify;
+    }
+
+    .about-section .about-btn {
+        margin-top: 70px !important;
+    }
+}
+
+@media screen and (width <=375px) {
+    .about-section .text-subHeading {
+        padding-right: 40px;
+    }
+}
+
+@media screen and (width <=375px) {
+    .about-section .text-subHeading {
+        padding: 0;
+    }
+}

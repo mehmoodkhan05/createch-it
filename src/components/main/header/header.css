@@ -4,10 +4,10 @@
 
 .hero-section .header-wraper .hero-body {
     padding-right: 168px;
-    margin-top: 15px;
+    margin-top: 15px; 
 }
 
-.hero-section .bottom-side h1 {
+.hero-section .bottom-side .text-heading {
     margin-top: 100px;
     background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
     -webkit-background-clip: text;
@@ -39,6 +39,41 @@
 
 @media screen and (width <= 575px) {
     .hero-section {
-        background: linear-gradient(to top left, rgba(139, 197, 203, 0.29) 32.03%, rgba(247, 247, 247, 0) 100%);
+        padding-top: 100px;
+        background: url(/src/assets/bg-mobile.jpg);
+        background-size: cover;
+        padding-bottom: 100px;
+    }
+
+    .hero-section .text-heading {
+        text-align: center;
+    }
+
+    .hero-section .header-btn {
+        background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+        border-radius: 5px;
+    }
+
+    .hero-section .hero-body {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .hero-section .mobile_image {
+        width: 339px;
+    }
+
+    .hero-section .bottom-side .text-heading {
+        display: block !important;
+        margin-top: 30px !important;
+    }
+
+    .hero-section .bottom-side .scnd-heading{
+        margin-left: 30px !important;
+    }
+
+    .hero-section .bottom-side p {
+        font-size: 14px;
+        text-align: center;
     }
 }

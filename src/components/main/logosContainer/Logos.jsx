@@ -1,8 +1,19 @@
 import React from "react";
 import "./logos.css";
 import { clients } from "../../../data/clients";
+import Slider from "react-slick";
+import { logo_1, logo_2, logo_3, logo_4, logo_5, logo_6 } from "./index"
 
 const Logos = () => {
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+    };
+
     return (
         <>
             <section className="logos-section">
@@ -12,16 +23,44 @@ const Logos = () => {
                             return (
                                 <div
                                     key={client.id}
-                                    className="col-xl-2 col-lg-3 col-md-4 col-12 d-flex align-items-center justify-content-center"
+                                    className="col-xl-2 col-sm-4 col-12 d-none d-sm-flex align-items-center justify-content-center mt-4 mt-md-0"
                                 >
                                     <img
                                         src={client.logo}
                                         alt="wwcLogo"
-                                        className={`img-fluid p-1 ${client.id == 5 && "background"}`}
+                                        className="img-fluid logos_desktop"
                                     />
                                 </div>
                             );
                         })}
+                    </div>
+
+                    <div className="d-block d-sm-none">
+                        <Slider {...settings}>
+                            <div>
+                                <img src={logo_1} alt="" />
+                            </div>
+
+                            <div>
+                                <img src={logo_2} alt="" />
+                            </div>
+
+                            <div>
+                                <img src={logo_3} alt="" />
+                            </div>
+
+                            <div>
+                                <img src={logo_4} alt="" />
+                            </div>
+
+                            <div>
+                                <img src={logo_5} alt="" />
+                            </div>
+
+                            <div>
+                                <img src={logo_6} alt="" />
+                            </div>
+                        </Slider>
                     </div>
                 </div>
             </section>

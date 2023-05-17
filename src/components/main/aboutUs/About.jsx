@@ -17,14 +17,14 @@ const About = () => {
                         <p className="text-heading">Why Choose Us</p>
                     </div>
 
-                    <div  className="pt-4">
+                    <div  className="pt-sm-4 pt-2">
                         <p className="text-subHeading">
                             We are a modern website building agency that can scale as
                             your business grow
                         </p>
                     </div>
 
-                    <div className="mt-5">
+                    <div className="pt-sm-5 pt-2">
                         <p className="text-body">
                             Createch IT Solutions offers a variety of website design and
                             development services, from creating mobile web development

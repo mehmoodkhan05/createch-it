@@ -39,12 +39,12 @@
 @media screen and (width <=991px) {
     .navbar-collapse {
         position: fixed;
-        top: 60px !important;
+        top: 55px !important;
         left: 0;
         padding-left: 15px;
         padding-right: 15px;
         padding-bottom: 15px;
-        width: 50%;
+        width: 65%;
         height: 100vh !important;
         background-color: var(--white-color);
         transition: all 0.3s ease-in-out !important;
@@ -74,9 +74,49 @@
     }
 }
 
-@media only screen and (width <=425px) {
+@media only screen and (width <=575px) {
     .header-logo {
-        width: 75%;
+        width: 130px;
     }
 
+    .navbar-header .navbar-toggler {
+        font-size: 24px;
+    }
+
+    .navbar-header .navbar-nav .nav-item {
+        font-weight: 500;
+        line-height: 34px;
+    }
+
+    .navbar-header .navbar-icon {
+        color: #52658C;
+        border: 1px solid;
+        border-radius: 25px;
+        padding: 6px;
+        font-size: 30px;
+        transition: all .3s ease;
+    }
+
+    .navbar-header .navbar-icon:hover {
+        background: var(--primary-color);
+        color: var(--white-color);
+        border: var(--secondary-color);
+    }
+
+    .navbar-header .navbar-copyright .navbar-info .site_link {
+        text-decoration: none;
+        color: var(--secondary-color);
+    }
+}
+
+@media only screen and (width <=375px) {
+    .navbar-header .navbar-copyright .navbar-info {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (width <=320px) {
+    .navbar-header .navbar-copyright .navbar-info {
+        font-size: 12px;
+    }
 }

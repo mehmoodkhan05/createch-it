@@ -34,7 +34,7 @@
 
 @media screen and (width <=991px) {
     .more_portfolio-page .section-heading {
-        font-size: 140px;
+        display: none;
     }
 
     .more_portfolio-page .text-heading {
@@ -48,5 +48,4 @@
     .more_portfolio-page .images-container {
         padding-bottom: 175px;
     }
-
 }
