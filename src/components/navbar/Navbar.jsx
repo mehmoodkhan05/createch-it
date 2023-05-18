@@ -68,7 +68,7 @@ const Navbar = (props) => {
                                 </li>
                             </ul>                          
 
-                            <div className="d-none d-sm-block">
+                            <div className="d-none d-lg-block">
                                 <button className="header-btn btn-w-147 p-1">Need Help?</button>
                             </div>
 

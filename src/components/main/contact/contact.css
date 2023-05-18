@@ -65,3 +65,14 @@
         display: none;
     }
 }
+
+@media screen and (width <= 575px) {
+    .contact-section .text-heading {
+        padding-right: 65px;
+    }
+
+    .contact-section .contact-logo {
+        padding-right: 25px;
+        width: 170px;
+    }
+}

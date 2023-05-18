@@ -74,15 +74,7 @@
     }
 }
 
-@media only screen and (width <=575px) {
-    .header-logo {
-        width: 130px;
-    }
-
-    .navbar-header .navbar-toggler {
-        font-size: 24px;
-    }
-
+@media screen and (width <=991px) {
     .navbar-header .navbar-nav .nav-item {
         font-weight: 500;
         line-height: 34px;
@@ -109,13 +101,23 @@
     }
 }
 
-@media only screen and (width <=375px) {
+@media screen and (width <=575px) {
+    .header-logo {
+        width: 130px;
+    }
+
+    .navbar-header .navbar-toggler {
+        font-size: 24px;
+    }
+}
+
+@media screen and (width <=375px) {
     .navbar-header .navbar-copyright .navbar-info {
         font-size: 14px;
     }
 }
 
-@media only screen and (width <=320px) {
+@media screen and (width <=320px) {
     .navbar-header .navbar-copyright .navbar-info {
         font-size: 12px;
     }

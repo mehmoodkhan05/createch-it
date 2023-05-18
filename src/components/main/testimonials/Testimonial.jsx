@@ -12,9 +12,11 @@ const Testimonial = () => {
       >
         <h1 className="position-absolute section-heading">Testimonials</h1>
         <div className="container">
-          <h2 className="text-heading">See Our Clients’ Feedback</h2>
+          <div className="text-center">
+            <h2 className="text-heading">See Our Clients’ Feedback</h2>
+          </div>
           <div className="row pt-80">
-            <div className="col-lg-3 col-md-4 col-12 d-none d-sm-flex align-items-lg-center justify-content-lg-end">
+            <div className="col-lg-3 col-md-4 col-12 d-none d-lg-flex align-items-lg-center justify-content-lg-end">
               <img src={icon} className="testimonial-icon img-fluid" alt="" />
             </div>
 

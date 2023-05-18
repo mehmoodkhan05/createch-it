@@ -36,6 +36,17 @@
     right: 50px;
 }
 
+.services-section .card-btn {
+    transition: all .3s ease-in-out;
+}
+
+.services-section .card-btn:hover {
+    background: var(--primary-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .services-section .card .card-title {
     padding-top: 50px;
 }
@@ -43,5 +54,11 @@
 @media screen and (width <=991px) {
     .services-section .section-heading {
         display: none;
+    }
+
+}
+@media screen and (width <=575px) {
+    .services-section .card-icons {
+        left: 50px;
     }
 }

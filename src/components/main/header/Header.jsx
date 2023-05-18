@@ -19,8 +19,8 @@ const Header = () => {
                             </p>
 
                             {/* IMAGE IN MOBILE VIEW */}
-                            <div className="d-flex justify-content-center">
-                                <img src={image} alt="" className="d-sm-none d-block mobile_image" />
+                            <div className="d-flex justify-content-center d-lg-none">
+                                <img src={image} alt="" className=" d-block mobile_image img-fluid" />
                             </div>
 
                             <div className="bottom-side justify-content-center justify-content-lg-start d-flex">
@@ -47,7 +47,7 @@ const Header = () => {
                             />
                         </div>
 
-                        <div className="text-center mt-5 d-block d-lg-none">
+                        <div className="text-center mt-5">
                             <button className="header-btn text-white btn btn-w-175 p-2">Need Help!</button>
                         </div>
                     </div>

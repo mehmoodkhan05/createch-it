@@ -12,6 +12,8 @@ const Logos = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        autoplay: true,
+        autoplaySpeed: 2500
     };
 
     return (
@@ -37,27 +39,27 @@ const Logos = () => {
 
                     <div className="d-block d-sm-none">
                         <Slider {...settings}>
-                            <div>
+                            <div className="d-flex align-items-center justify-content-center">
                                 <img src={logo_1} alt="" />
                             </div>
 
-                            <div>
+                            <div className="d-flex align-items-center justify-content-center">
                                 <img src={logo_2} alt="" />
                             </div>
 
-                            <div>
+                            <div className="d-flex align-items-center justify-content-center">
                                 <img src={logo_3} alt="" />
                             </div>
 
-                            <div>
+                            <div className="d-flex align-items-center justify-content-center">
                                 <img src={logo_4} alt="" />
                             </div>
 
-                            <div>
+                            <div className="d-flex align-items-center justify-content-center">
                                 <img src={logo_5} alt="" />
                             </div>
 
-                            <div>
+                            <div className="d-flex align-items-center justify-content-center">
                                 <img src={logo_6} alt="" />
                             </div>
                         </Slider>

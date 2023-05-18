@@ -5,7 +5,7 @@
 
 .portfolio-section .portfolio-images {
     z-index: 2;
-    transition: all .3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .portfolio-section .portfolio-images:hover {
@@ -21,7 +21,7 @@
 
 .portfolio-section .portfolio-btn {
     color: var(--white-color);
-    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
+    background: linear-gradient(213.9deg, #52658c 0%, #367076 100.66%);
     border: none;
     margin-top: 160px;
 }
@@ -33,5 +33,9 @@
 @media screen and (width <=991px) {
     .portfolio-section .section-heading {
         display: none;
+    }
+
+    .portfolio-section .portfolio-btn {
+        margin-top: 80px;
     }
 }

@@ -1,79 +1,79 @@
 .hero-section {
-    padding-top: 250px;
+  padding-top: 250px;
 }
 
 .hero-section .header-wraper .hero-body {
-    padding-right: 168px;
-    margin-top: 15px; 
+  padding-right: 168px;
+  margin-top: 15px;
 }
 
 .hero-section .bottom-side .text-heading {
-    margin-top: 100px;
-    background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  margin-top: 100px;
+  background: linear-gradient(213.9deg, #52658c 0%, #367076 100.66%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 @media screen and (width <=1399px) {
-    .hero-section .header-wraper .hero-body {
-        padding-right: 78px;
-    }
+  .hero-section .header-wraper .hero-body {
+    padding-right: 78px;
+  }
 }
 
 @media screen and (width <=1024px) {
-    .hero-section .header-wraper .hero-body {
-        padding-right: 68px;
-    }
+  .hero-section .header-wraper .hero-body {
+    padding-right: 68px;
+  }
 }
 
 @media screen and (width <=991px) {
-    .hero-section {
-        padding-top: 180px;
-    }
+  .hero-section {
+    padding-top: 180px;
+  }
 
-    .hero-section .header-wraper .hero-body {
-        padding-right: 0px;
-    }
+  .hero-section .header-wraper .hero-body {
+    padding-right: 0px;
+  }
+
+  .hero-section .header-btn {
+    background: linear-gradient(213.9deg, #52658c 0%, #367076 100.66%);
+    border-radius: 5px;
+  }
 }
 
-@media screen and (width <= 575px) {
-    .hero-section {
-        padding-top: 100px;
-        background: url(/src/assets/bg-mobile.jpg);
-        background-size: cover;
-        padding-bottom: 100px;
-    }
+@media screen and (width <=575px) {
+  .hero-section {
+    padding-top: 100px;
+    background: url(/src/assets/bg-mobile.jpg);
+    background-size: cover;
+    padding-bottom: 100px;
+  }
 
-    .hero-section .text-heading {
-        text-align: center;
-    }
+  .hero-section .text-heading {
+    text-align: center;
+  }
 
-    .hero-section .header-btn {
-        background: linear-gradient(213.9deg, #52658C 0%, #367076 100.66%);
-        border-radius: 5px;
-    }
+  .hero-section .hero-body {
+    font-size: 14px;
+    text-align: center;
+  }
 
-    .hero-section .hero-body {
-        font-size: 14px;
-        text-align: center;
-    }
+  .hero-section .mobile_image {
+    width: 339px;
+  }
 
-    .hero-section .mobile_image {
-        width: 339px;
-    }
+  .hero-section .bottom-side .text-heading {
+    display: block !important;
+    margin-top: 30px !important;
+  }
 
-    .hero-section .bottom-side .text-heading {
-        display: block !important;
-        margin-top: 30px !important;
-    }
+  .hero-section .bottom-side .scnd-heading {
+    margin-left: 30px !important;
+  }
 
-    .hero-section .bottom-side .scnd-heading{
-        margin-left: 30px !important;
-    }
-
-    .hero-section .bottom-side p {
-        font-size: 14px;
-        text-align: center;
-    }
+  .hero-section .bottom-side p {
+    font-size: 14px;
+    text-align: center;
+  }
 }

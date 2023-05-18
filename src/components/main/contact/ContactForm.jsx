@@ -27,14 +27,16 @@ const ContactForm = () => {
                         placeholder="Tell us about your project"
                     />
                 </Form.Group>
-                <button
-                    type="submit"
-                    onClick={handleSubmit}
-                    className="contact-btn btn-w-227 btn p-2 mt-lg-4"
-                >
-                    Send us
-                    <HiArrowLongRight className="ms-2 contact-btn-icon" />
-                </button>
+                <div className="text-center">
+                    <button
+                        type="submit"
+                        onClick={handleSubmit}
+                        className="contact-btn btn-w-227 btn p-2 mt-lg-4"
+                    >
+                        Send us
+                        <HiArrowLongRight className="ms-2 contact-btn-icon" />
+                    </button>
+                </div>
             </Form>
         </>
     );

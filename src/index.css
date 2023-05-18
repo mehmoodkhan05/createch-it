@@ -16,6 +16,7 @@ body {
     font-family: "cera pro", sans-serif;
     font-weight: 400;
     color: var(--secondary-color);
+    border: 1px solid;
 }
 
 .section-heading {
@@ -193,12 +194,16 @@ body {
     }
 
     .text-subHeading {
-        font-weight: 500;
+        font-weight: bold;
         font-size: 14px;
         line-height: 24px;
     }
 
     .btn-w-227 {
         width: 200px;
+    }
+
+    .fs-18 {
+        font-size: 16px;
     }
 }
