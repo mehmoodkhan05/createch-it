@@ -8,12 +8,14 @@ const Creative = () => {
     const settings = {
         className: "center",
         centerMode: true,
-        centerPadding: "100px",
+        centerPadding: "85px",
         dots: false,
         infinite: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         arrows: false,
+        autoplay: true,
+        autoplaySpedd: 2500,
         responsive: [
             {
                 breakpoint: 575,
@@ -123,7 +125,7 @@ const Creative = () => {
 
                     <div className="slick-slider d-block d-sm-none">
                         <Slider {...settings}>
-                            <div className="text-center">
+                            <div className="text-center slick-next-content">
                                 <div className="d-flex align-items-center justify-content-center">
                                     <img src={team_2} alt="" className="img-fluid" />
                                 </div>
@@ -140,7 +142,7 @@ const Creative = () => {
                                 </div>
                             </div>
 
-                            <div className="text-center">
+                            <div className="text-center slick-next-content">
                                 <div className="d-flex align-items-center justify-content-center">
                                     <img src={team_1} alt="" className="img-fluid" />
                                 </div>
@@ -157,14 +159,14 @@ const Creative = () => {
                                 </div>
                             </div>
 
-                            <div className="text-center">
+                            <div className="text-center slick-next-content">
                                 <div className="d-flex align-items-center justify-content-center">
                                     <img src={team_3} alt="" className="img-fluid" />
                                 </div>
 
                                 <div>
                                     <p className="pt-3">
-                                        <span className="text-heading fs-18 lh-26">Babar Ali Khan</span>
+                                        <span className="text-heading fs-18 lh-26">Faisal Hayat</span>
                                         <br />
                                         <span className="text-body fs-16 lh-26">
                                             Graphics Designer & Video Editor

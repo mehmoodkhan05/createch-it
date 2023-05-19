@@ -31,6 +31,8 @@ const Portfolio = () => {
     slidesToShow: 3,
     arrows: false,
     centerPadding: "85px",
+    autoplay: true,
+    autoplaySpeed: 2500,
     responsive: [
       {
         breakpoint: 575,
@@ -126,29 +128,29 @@ const Portfolio = () => {
             </div>
           </div>
 
-          <div className="d-block d-sm-none pt-3">
+          <div className="slick-slider d-block d-sm-none pt-3">
             <Slider {...settings}>
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center slick-next-content">
                 <img src={portfolio_1} alt="" className="img-fluid ps-2" />
               </div>
 
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center slick-next-content">
                 <img src={portfolio_2} alt="" className="img-fluid ps-2" />
               </div>
 
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center slick-next-content">
                 <img src={portfolio_3} alt="" className="img-fluid ps-2" />
               </div>
 
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center slick-next-content">
                 <img src={portfolio_4} alt="" className="img-fluid ps-2" />
               </div>
 
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center slick-next-content">
                 <img src={portfolio_5} alt="" className="img-fluid ps-2" />
               </div>
 
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center slick-next-content">
                 <img src={portfolio_6} alt="" className="img-fluid ps-2" />
               </div>
             </Slider>

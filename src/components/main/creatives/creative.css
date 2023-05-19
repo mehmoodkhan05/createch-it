@@ -14,3 +14,26 @@
         display: none;
     }
 }
+
+@media screen and (width <=575px) {
+    .creative-section .slick-slider .slick-next-content p {
+        opacity: 0.2;
+    }
+
+    .creative-section .slick-slider .slick-next-content {
+        filter: brightness(50%);
+        padding: 50px 0;
+    }
+
+    .creative-section .slick-slider .slick-slide.slick-active.slick-slide .slick-next-content {
+        position: relative;
+        filter: brightness(100%);
+        transform: scale(1.1);
+        transition: all .3s ease-in-out;
+        z-index: 50;
+    }
+
+    .creative-section .slick-slider .slick-slide.slick-active.slick-slide .slick-next-content p {
+        opacity: 1;
+    }
+}
