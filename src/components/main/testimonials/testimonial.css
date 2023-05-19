@@ -47,5 +47,48 @@
     .testimonial-section .bottom-message {
         padding-top: 0 !important;
     }
+}
 
+@media screen and (width <=575px) {
+    .testimonial-section {
+        margin-top: 100px;
+    }
+
+    .testimonial-section .testimonial-image {
+        width: 180px;
+    }
+
+    .testimonial-section .text-body {
+        padding: 0 70px;
+        text-align: center;
+    }
+
+    .testimonial-section .bottom-message {
+        padding-top: 15px !important;
+        line-height: 0px;
+    }
+    
+    .testimonial-section .bottom-message span.text-heading {
+        line-height: 18px;
+    }
+}
+
+@media screen and (width <=425px) {
+    .testimonial-section .testimonial-image {
+        width: 150px;
+    }
+
+    .testimonial-section .text-body {
+        padding: 0 25px;
+    }
+}
+
+@media screen and (width <=375px) {
+    .testimonial-section .testimonial-image {
+        width: 130px;
+    }
+
+    .testimonial-section .text-body {
+        padding: 0;
+    }
 }
