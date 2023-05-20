@@ -40,7 +40,13 @@
     }
 }
 
-@media screen and (width <= 575px) {
+@media screen and (width <=575px) {
+    .portfolio-section {
+        padding-top: 60px;
+        background: url(/src/assets/bg-mobile.jpg) no-repeat;
+        background-size: cover;
+    }
+
     .portfolio-section .slick-slider .slick-slide.slick-active.slick-slide .slick-next-content {
         position: relative;
         filter: brightness(100%);

@@ -4,7 +4,7 @@ import "./services.css"
 const Card = (props) => {
     return (
         <>
-            <div className="card py-4 py-sm-1 position-relative">
+            <div className="card py-4 py-sm-1 py-lg-4 position-relative">
                 <img src={props.image} alt={props.alt} className="card-icons" />
                 <div className="card-body">
                     <p className="card-title text-heading fs-18 lh-24">{props.title}</p>

@@ -2,7 +2,7 @@ import React from "react";
 import "./creative.css";
 import { creatives } from "../../../data/creatives";
 import Slider from "react-slick";
-import { team_1, team_2, team_3 } from "./index"
+import { team_1, team_2, team_3 } from "./index";
 
 const Creative = () => {
     const settings = {
@@ -21,8 +21,8 @@ const Creative = () => {
                 breakpoint: 575,
                 settings: {
                     slidesToShow: 1,
-                    slidesToScroll: 1
-                }
+                    slidesToScroll: 1,
+                },
             },
 
             {
@@ -30,8 +30,8 @@ const Creative = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "85px"
-                }
+                    centerPadding: "85px",
+                },
             },
 
             {
@@ -39,8 +39,8 @@ const Creative = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "65px"
-                }
+                    centerPadding: "65px",
+                },
             },
 
             {
@@ -48,8 +48,8 @@ const Creative = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "55px"
-                }
+                    centerPadding: "55px",
+                },
             },
 
             {
@@ -57,8 +57,8 @@ const Creative = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "45px"
-                }
+                    centerPadding: "45px",
+                },
             },
 
             {
@@ -66,8 +66,8 @@ const Creative = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "30px"
-                }
+                    centerPadding: "30px",
+                },
             },
 
             {
@@ -75,8 +75,8 @@ const Creative = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "20px"
-                }
+                    centerPadding: "20px",
+                },
             },
 
             {
@@ -84,8 +84,8 @@ const Creative = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "10px"
-                }
+                    centerPadding: "10px",
+                },
             },
 
             {
@@ -93,10 +93,10 @@ const Creative = () => {
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
-                    centerPadding: "0px"
-                }
-            }
-        ]
+                    centerPadding: "0px",
+                },
+            },
+        ],
     };
 
     return (
@@ -105,21 +105,29 @@ const Creative = () => {
                 <div className="container position-relative">
                     <h1 className="section-heading">Creatives</h1>
                     <h2 className="text-center text-heading">Our Awesome Team</h2>
-                    <div className="row text-center pt-md-4">
+                    <div className="row text-center pt-md-4 d-none d-sm-flex">
                         {creatives.map((creative) => {
                             return (
-                                <div className="col-lg-4 col-md-6 col-sm-6 p-sm-1 ps-lg-2 mt-xl-5 d-none d-sm-block" key={creative.id}>
+                                <div
+                                    className={`col-lg-4 col-md-6 col-sm-6 p-sm-1 ps-lg-2 mt-xl-5 ${creative.id === 3 ? "col-12 text-center" : ""
+                                        }`}
+                                    key={creative.id}
+                                >
                                     <img src={creative.image} alt="" className="img-fluid" />
                                     <p className="pt-3">
-                                        <span className="text-heading fs-18 lh-26">{creative.heading}</span>
+                                        <span className="text-heading fs-18 lh-26">
+                                            {creative.heading}
+                                        </span>
                                         <br />
                                         <span className="text-body fs-16 lh-26">
                                             {creative.body}
                                         </span>
                                     </p>
-                                    <p className="text-body fs-16 lh-26">{creative.description}</p>
+                                    <p className="text-body fs-16 lh-26">
+                                        {creative.description}
+                                    </p>
                                 </div>
-                            )
+                            );
                         })}
                     </div>
 
@@ -132,13 +140,17 @@ const Creative = () => {
 
                                 <div>
                                     <p className="pt-3">
-                                        <span className="text-heading fs-18 lh-26">Babar Ali Khan</span>
+                                        <span className="text-heading fs-18 lh-26">
+                                            Babar Ali Khan
+                                        </span>
                                         <br />
                                         <span className="text-body fs-16 lh-26">
                                             Sr. Web Developer & Founder CITS
                                         </span>
                                     </p>
-                                    <p className="text-body fs-16 lh-26">Professional Experience: 8 years</p>
+                                    <p className="text-body fs-16 lh-26">
+                                        Professional Experience: 8 years
+                                    </p>
                                 </div>
                             </div>
 
@@ -149,13 +161,17 @@ const Creative = () => {
 
                                 <div>
                                     <p className="pt-3">
-                                        <span className="text-heading fs-18 lh-26">Muhammad Ismail</span>
+                                        <span className="text-heading fs-18 lh-26">
+                                            Muhammad Ismail
+                                        </span>
                                         <br />
                                         <span className="text-body fs-16 lh-26">
                                             Sr. Web Developer
                                         </span>
                                     </p>
-                                    <p className="text-body fs-16 lh-26">Professional Experience: 8 years</p>
+                                    <p className="text-body fs-16 lh-26">
+                                        Professional Experience: 8 years
+                                    </p>
                                 </div>
                             </div>
 
@@ -166,19 +182,23 @@ const Creative = () => {
 
                                 <div>
                                     <p className="pt-3">
-                                        <span className="text-heading fs-18 lh-26">Faisal Hayat</span>
+                                        <span className="text-heading fs-18 lh-26">
+                                            Faisal Hayat
+                                        </span>
                                         <br />
                                         <span className="text-body fs-16 lh-26">
                                             Graphics Designer & Video Editor
                                         </span>
                                     </p>
-                                    <p className="text-body fs-16 lh-26">Professional Experience: 8 years</p>
+                                    <p className="text-body fs-16 lh-26">
+                                        Professional Experience: 8 years
+                                    </p>
                                 </div>
                             </div>
                         </Slider>
                     </div>
                 </div>
-            </section >
+            </section>
         </>
     );
 };

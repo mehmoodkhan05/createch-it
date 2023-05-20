@@ -29,7 +29,7 @@ const Logos = () => {
                                 >
                                     <img
                                         src={client.logo}
-                                        alt="wwcLogo"
+                                        alt="logo"
                                         className="img-fluid logos_desktop"
                                     />
                                 </div>

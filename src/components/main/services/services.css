@@ -14,17 +14,11 @@
 }
 
 .services-section .card {
-    background: linear-gradient(256.52deg, rgba(168, 208, 230, 0.1) 0%, rgba(62, 163, 183, 0.1) 100%);
-    border-radius: 10px;
+    background: transparent;
+    border-radius: 5px;
     padding-left: 15px;
-    border: none;
-    transition: all .3s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.2);
     height: 100%;
-}
-
-.services-section .card:hover {
-    transform: scale(1.05);
-    background: linear-gradient(256.52deg, #A8D0E6 0%, #3EA3B7 100%);
 }
 
 .services-section .card-icons {
@@ -36,15 +30,8 @@
     right: 50px;
 }
 
-.services-section .card-btn {
-    transition: all .3s ease-in-out;
-}
-
 .services-section .card-btn:hover {
-    background: var(--primary-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--secondary-color);
 }
 
 .services-section .card .card-title {
@@ -59,6 +46,10 @@
 }
 @media screen and (width <=575px) {
     .services-section .card-icons {
-        left: 50px;
+        left: 20px;
+    }
+
+    .services-section .card-btn {
+        padding-top: 25px !important;
     }
 }

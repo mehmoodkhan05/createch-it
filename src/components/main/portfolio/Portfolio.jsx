@@ -109,7 +109,7 @@ const Portfolio = () => {
               return (
                 <div
                   key={protfolio.id}
-                  className={`col-lg-2 p-0 col-sm-4 col-6 position-relative `}
+                  className="col-lg-2 p-0 col-sm-4 col-6 position-relative"
                 >
                   <img
                     src={protfolio.image}

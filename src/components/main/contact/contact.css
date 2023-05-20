@@ -21,10 +21,6 @@
     padding: 15px 20px;
 }
 
-.contact-section .contact-form .form-select option {
-    opacity: 0.5;
-}
-
 .contact-section .contact-form .form-select:focus {
     box-shadow: none;
 }
@@ -35,7 +31,7 @@
 
 .contact-section .contact-form .form-control {
     opacity: 0.5;
-    border: 1px solid var(--secondary-color);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     padding: 15px 20px;
 }
 

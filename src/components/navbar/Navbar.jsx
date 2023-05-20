@@ -56,11 +56,6 @@ const Navbar = (props) => {
                                         {props.portfolio}
                                     </HashLink>
                                 </li>
-                                {/* <li className="nav-item d-none d-lg-block">
-                                    <HashLink className="nav-link" to="/#testimonial">
-                                        {props.testimonials}
-                                    </HashLink>
-                                </li> */}
                                 <li className="nav-item">
                                     <HashLink className="nav-link" to="/#contact">
                                         {props.contact}

@@ -10,11 +10,11 @@ const ContactForm = () => {
     return (
         <>
             <Form className="contact-form">
-                <Form.Group className="mb-xl-4 mb-lg-3 mb-2">
+                <Form.Group className="mb-xl-4 mb-lg-3 mb-3">
                     <Form.Control type="text" placeholder="Your name" />
                 </Form.Group>
 
-                <Form.Group className="mb-xl-4 mb-lg-3 mb-2">
+                <Form.Group className="mb-xl-4 mb-lg-3 mb-3">
                     <Form.Control type="email" placeholder="Your email" />
                 </Form.Group>
 

@@ -18,7 +18,7 @@ const Footer = () => {
               />
             </div>
 
-            <div className="col-lg-3 mt-5 col-md-4 col-6 ps-5">
+            <div className="col-lg-3 mt-5 col-md-4 col-6 ps-5 quick_links">
               <h4 className="text-heading fs-16 lh-20">Quick Links</h4>
               <div className="footer-info">
                 <ul className="list-unstyled p-0">
@@ -41,7 +41,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 mt-5 col-md-4 col-6">
+            <div className="col-lg-3 mt-5 col-md-4 col-6 what_we-do">
               <h4 className="text-heading fs-16 lh-20">What We Do</h4>
               <div className="footer-info">
                 <ul className="list-unstyled p-0">
@@ -64,7 +64,7 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="col-lg-3 mt-5 col-12 justify-content-center text-md-center text-lg-start ps-5">
+            <div className="col-lg-3 mt-5 col-12 justify-content-center text-md-center text-lg-start ps-5 contact">
               <h4 className="text-heading fs-16 lh-20">Contact</h4>
               <div className="footer-info">
                 <p>
@@ -90,7 +90,7 @@ const Footer = () => {
                 <p className="lh-24">
                   <Link
                     to="tel:+923369201441"
-                    className="text-decoration-none"
+                    className="text-decoration-none fw-500"
                     target="_blank"
                   >
                     +92 336 9201441
@@ -98,7 +98,7 @@ const Footer = () => {
                   &nbsp; | &nbsp;
                   <Link
                     to="http://wa.me/+923365238082"
-                    className="text-decoration-none"
+                    className="text-decoration-none fw-500"
                     target="_blank"
                   >
                     +92 336 5238082
@@ -127,7 +127,7 @@ const Footer = () => {
           </div>
 
           <div className="footer-copyright">
-            <p className="text-center footer-info mb-0">
+            <p className="text-center footer-info mb-0 lh-20">
               © 2020 &nbsp;
               <Link to="#" className="site_link">
                 Createch IT Solutions

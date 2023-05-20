@@ -24,27 +24,28 @@ const Testimonial = () => {
       >
         <h1 className="position-absolute section-heading">Testimonials</h1>
         <div className="container">
-          <div className="text-center">
-            <h2 className="text-heading">See Our Clients’ Feedback</h2>
+          <div className="text-center text-lg-start">
+            <h2 className="text-heading d-none d-sm-block">See Our Clients’ Feedback</h2>
+            <h2 className="text-heading d-block d-sm-none">Clients’ Feedback</h2>
           </div>
-          <div className="row pt-80 d-none d-sm-block">
-            <div className="col-lg-3 col-md-4 col-12 align-items-lg-center justify-content-lg-end">
+          <div className="row pt-80 d-none d-sm-flex align-items-md-center justify-content-md-center align-items-lg-start justify-content-lg-start testimonial_main-row">
+            <div className="col-lg-3 col-md-4 col-12 position-relative d-none d-lg-block">
               <img src={icon} className="testimonial-icon img-fluid" alt="" />
             </div>
 
-            <div className="col-lg-2 col-md-4 col-12 text-center text-lg-start">
+            <div className="col-lg-2 col-md-4 col-12 text-center text-lg-start mt-xl-4">
               <img src={image} className="testimonial-image img-fluid" alt="" />
             </div>
 
-            <div className="col-lg-6 col-md-4 col-12 d-flex flex-column">
-              <p className="text-body text-justify text-center text-sm-start lh-24 mt-4 mt-md-0">
+            <div className="col-lg-6 col-md-5 col-12 d-flex flex-column mt-xl-4">
+              <p className="text-body text-justify text-center text-sm-start lh-24 mt-4 mt-md-0 order-2 order-md-1">
                 “A Super creative, forward thinking team at Createch IT
                 Solutions implicitly understood our vision for the brand and
                 were able to translate our ideas into a tangible and exciting
                 new concept.”
               </p>
 
-              <p className="bottom-message pt-18 text-center text-md-start">
+              <p className="bottom-message pt-18 text-center text-md-start order-1 order-md-2">
                 <span className="text-heading fs-18 lh-22">
                   Sarah Jordan, CEO
                 </span>
@@ -55,7 +56,7 @@ const Testimonial = () => {
           </div>
 
           {/* SLICK SLIDER IN MOBILE */}
-          <div className="pt-3">
+          <div className="pt-3 d-block d-sm-none">
             <Slider {...settings}>
               <div>
                 <div className="col-lg-2 col-md-4 col-12 text-center text-lg-start d-flex align-items-center justify-content-center">
