@@ -11,8 +11,8 @@ const Contact = () => {
                     <h1 className="section-heading">Contact</h1>
                     <div className="row">
                         <div className="col-xl-7 col-lg-7 col-md-6 d-flex d-sm-block">
+                            <h2 className="text-heading">Interested in Driving Growth?</h2>
                             <div className="d-flex align-items-center justify-content-center">
-                                <h2 className="text-heading">Interested in Driving Growth?</h2>
 
                                 {/* MOBILE VIEW LOGO */}
                                 <img
@@ -25,12 +25,12 @@ const Contact = () => {
                             {/* DESKTOP VIEW IMAGE */}
                             <img
                                 src={image}
-                                className="contact-image img-fluid d-none d-sm-block"
+                                className="contact-image img-fluid d-none d-md-block"
                                 alt=""
                             />
                         </div>
 
-                        <div className="col-xl-4 col-lg-5 col-md-6 pt-0 pt-sm-0">
+                        <div className="col-xl-4 col-lg-5 col-md-6 pt-sm-3 pt-md-0">
                             <p className="text-subHeading">
                                 Have a question in mind?
                                 <br /> We're just an email away.

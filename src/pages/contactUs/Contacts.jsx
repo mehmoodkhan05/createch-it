@@ -1,8 +1,7 @@
-import React, { useEffect } from "react";
-import "./moreAbout.css";
-import video from "/src/assets/video.mp4";
-import { clients } from "../../data/clients";
-import Slider from "react-slick";
+import React, { useEffect } from 'react'
+import "./contacts.css"
+import { clients } from '../../data/clients'
+import Slider from 'react-slick'
 import {
     logo_1,
     logo_2,
@@ -12,11 +11,11 @@ import {
     logo_6,
 } from "/src/components/main/logosContainer/index.js";
 import { image, logo } from "/src/components/main/contact/index.js";
-import { HiArrowLongRight } from "react-icons/hi2";
 import Form from "react-bootstrap/Form";
+import { HiArrowLongRight } from "react-icons/hi2";
 import { icon, test_image } from "/src/components/main/testimonials/index.js";
 
-const MoreAbout = () => {
+const Contacts = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -38,11 +37,11 @@ const MoreAbout = () => {
 
     return (
         <>
-            <div className="about_us-component">
-                <div className="more_about-page">
+            <div className="contact_us-component">
+                <div className="contacts-page">
                     <div className="container position-relative">
                         <div className="heading-container">
-                            <p className="section-heading text-center">About Us</p>
+                            <p className="section-heading text-center">Contact Us</p>
                             <p className="text-heading text-center pt-150">
                                 We are a modern website building agency that can scale as your
                                 business grow.
@@ -54,50 +53,6 @@ const MoreAbout = () => {
                                 e-commerce and intranet experiences using the latest and proven
                                 web technologies.
                             </p>
-                        </div>
-
-                        <div className="video-container position-relative">
-                            <video
-                                src={video}
-                                className="w-100 img-fluid"
-                                controls
-                                loop
-                                autoPlay
-                            />
-                        </div>
-
-                        <div className="desc-container">
-                            <div className="row">
-                                <div className="col-lg-6">
-                                    <p className="text-body text-justify">
-                                        Lorem ipsum dolor sit amet consectetur. Arcu nec nulla
-                                        hendrerit libero id. Consectetur in velit auctor orci etiam
-                                        interdum nibh cras velit. Ut sodales eget orci purus viverra
-                                        sit fringilla urna. Porta tempus nisl sagittis nam metus
-                                        senectus risus enim nec. Ut lectus nulla dolor enim tristique
-                                        facilisi dignissim curabitur. Aliquet habitasse et faucibus
-                                        nibh volutpat libero ultricies mattis varius. Mollis eget
-                                        platea consequat fermentum sem mauris nullam. Etiam varius
-                                        habitant eu blandit quam molestie consequat pharetra praesent
-                                        Morbi pulvinar.
-                                    </p>
-                                </div>
-
-                                <div className="col-lg-6">
-                                    <p className="text-body text-justify">
-                                        Lorem ipsum dolor sit amet consectetur. Arcu nec nulla
-                                        hendrerit libero id. Consectetur in velit auctor orci etiam
-                                        interdum nibh cras velit. Ut sodales eget orci purus viverra
-                                        sit fringilla urna. Porta tempus nisl sagittis nam metus
-                                        senectus risus enim nec. Ut lectus nulla dolor enim tristique
-                                        facilisi dignissim curabitur. Aliquet habitasse et faucibus
-                                        nibh volutpat libero ultricies mattis varius. Mollis eget
-                                        platea consequat fermentum sem mauris nullam. Etiam varius
-                                        habitant eu blandit quam molestie consequat pharetra praesent
-                                        Morbi pulvinar.
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -377,7 +332,7 @@ const MoreAbout = () => {
                 </section>
             </div>
         </>
-    );
-};
+    )
+}
 
-export default MoreAbout;
+export default Contacts

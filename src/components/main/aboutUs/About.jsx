@@ -33,7 +33,7 @@ const About = () => {
                             proven web technologies.
                         </p>
                     </div>
-                    <Link to="/aboutUs" className="about-btn btn btn-w-227 mt-5 p-2">
+                    <Link to="#" className="about-btn btn btn-w-227 mt-5 p-2">
                         More about us
                         <HiArrowLongRight className="btn-icon ms-2" />
                     </Link>

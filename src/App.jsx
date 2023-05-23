@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import Main from "./components/main/Main";
 import Footer from "./components/footer/Footer";
 import { BrowserRouter as Router, Routes, Route, Outlet } from "react-router-dom";
-import { MoreAbout, MorePortfolio } from "./pages/index"
+import { MoreAbout, MorePortfolio, Contacts } from "./pages/index"
 
 export default function App() {
   return (
@@ -14,6 +14,7 @@ export default function App() {
             <Route index element={<Main />} />
             <Route path="/aboutUs" element={<MoreAbout />} />
             <Route path="/portfolio" element={<MorePortfolio />} />
+            <Route path="/contactUs" element={<Contacts />} />
           </Route>
         </Routes>
       </Router>

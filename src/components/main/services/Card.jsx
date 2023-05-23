@@ -10,7 +10,7 @@ const Card = (props) => {
                     <p className="card-title text-heading fs-18 lh-24">{props.title}</p>
                     <p className="card-text text-body fs-16 lh-24 pt-3">{props.description}</p>
                     <a href="#">
-                        <button className="card-btn border-0 bg-transparent footer-info fw-500 pt-0">{props.button}</button>
+                        <button className="card-btn border-0 bg-transparent footer-info fw-500 pt-4">{props.button}</button>
                     </a>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 .hero-section {
-  padding-top: 250px;
+  padding-top: 150px;
 }
 
 .hero-section .header-wraper .hero-body {
@@ -29,7 +29,7 @@
 
 @media screen and (width <=991px) {
   .hero-section {
-    padding-top: 180px;
+    padding-top: 50px;
   }
 
   .hero-section .header-wraper .hero-body {

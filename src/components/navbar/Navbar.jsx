@@ -15,9 +15,9 @@ const Navbar = (props) => {
 
     return (
         <>
-            <header className="navbar-header fixed-top">
+            <header className="navbar-header sticky-top">
                 <nav className="navbar navbar-expand-lg bg-white">
-                    <div className="container">
+                    <div className="container py-3">
                         <Link className="navbar-brand" to="/">
                             <img
                                 src={config.logo}
@@ -47,24 +47,26 @@ const Navbar = (props) => {
                                     </HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <HashLink className="nav-link" smooth aria-current="page" to="/#about">
+                                    <HashLink className="nav-link" smooth aria-current="page" to="/aboutUs">
                                         {props.about}
                                     </HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <HashLink className="nav-link" to="/#portfolio">
+                                    <HashLink className="nav-link" to="/portfolio">
                                         {props.portfolio}
                                     </HashLink>
                                 </li>
                                 <li className="nav-item">
-                                    <HashLink className="nav-link" to="/#contact">
+                                    <HashLink className="nav-link" to="/contactUs">
                                         {props.contact}
                                     </HashLink>
                                 </li>
-                            </ul>                          
+                            </ul>
 
                             <div className="d-none d-lg-block">
-                                <button className="header-btn btn-w-147 p-1">Need Help?</button>
+                                <HashLink to="/#contact">
+                                    <button className="header-btn btn-w-147 p-1">Need Help?</button>
+                                </HashLink>
                             </div>
 
                             <div className="mt-3 me-3 d-block d-lg-none text-center text-lg-start">

@@ -39,7 +39,7 @@
 @media screen and (width <=991px) {
     .navbar-collapse {
         position: fixed;
-        top: 55px !important;
+        top: 97px !important;
         left: 0;
         padding-left: 15px;
         padding-right: 15px;
@@ -72,9 +72,7 @@
     .navbar-header .header-btn {
         margin-top: 15px;
     }
-}
 
-@media screen and (width <=991px) {
     .navbar-header .navbar-nav .nav-item {
         font-weight: 500;
         line-height: 34px;
@@ -101,6 +99,7 @@
     }
 }
 
+
 @media screen and (width <=575px) {
     .header-logo {
         width: 130px;
@@ -109,6 +108,11 @@
     .navbar-header .navbar-toggler {
         font-size: 24px;
     }
+
+    .navbar-collapse {
+        top: 88px !important;
+    }
+
 }
 
 @media screen and (width <=375px) {

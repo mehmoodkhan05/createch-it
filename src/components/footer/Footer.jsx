@@ -119,7 +119,7 @@ const Footer = () => {
                 >
                   <FaLinkedinIn className="ms-3 footer-icon" />
                 </Link>
-                <Link to="#" target="_blank">
+                <Link to="" target="_blank">
                   <FaTwitter className="ms-3 footer-icon" />
                 </Link>
               </div>

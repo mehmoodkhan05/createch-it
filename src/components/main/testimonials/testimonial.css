@@ -5,11 +5,10 @@
 
 .testimonial-section .section-heading {
     position: absolute;
-    opacity: 0.01;
+    opacity: 0.03;
     right: 0;
     top: -75px;
     font-weight: 400;
-    transition: all .5s ease-in-out;
 }
 
 .testimonial-section .text-body {

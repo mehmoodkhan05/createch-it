@@ -1,0 +1,45 @@
+.contact_us-component .contacts-page {
+    padding-top: 80px;
+}
+
+.contact_us-component .contacts-page .section-heading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.03;
+}
+
+.contact_us-component .contacts-page .text-heading {
+    padding: 0 200px;
+}
+
+.contact_us-component .contacts-page .text-body {
+    padding: 0 50px;
+}
+
+/* LOGOS SECTION */
+
+.contact_us-component .logos-section {
+    padding-top: 25px;
+}
+
+/* LOGOS SECTION */
+
+@media screen and (width <=991px) {
+    .contact_us-component .contacts-page {
+        padding-top: 0;
+    }
+
+    .contact_us-component .contacts-page .section-heading {
+        display: none;
+    }
+
+    .contact_us-component .contacts-page .text-heading {
+        padding: 100px 0 0 0 !important;
+    }
+
+    .contact_us-component .contacts-page .text-body {
+        padding: 0;
+    }
+}

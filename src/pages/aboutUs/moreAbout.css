@@ -1,55 +1,53 @@
-.more_about-page {
+.about_us-component .more_about-page {
     padding-top: 80px;
 }
 
-.more_about-page .section-heading {
+.about_us-component .more_about-page .section-heading {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
-    opacity: 0.01;
+    opacity: 0.03;
 }
 
-.more_about-page .text-heading {
+.about_us-component .more_about-page .text-heading {
     padding: 0 200px;
 }
 
-.more_about-page .text-body {
+.about_us-component .more_about-page .text-body {
     padding: 0 50px;
 }
 
-.more_about-page .video-container {
+.about_us-component .more_about-page .video-container {
     padding-top: 110px;
 }
 
-.more_about-page .desc-container {
+.about_us-component .more_about-page .desc-container {
     padding-top: 140px;
 }
 
-.more_about-page .play-pause-button {
-    color: var(--white-color);
-    font-size: 90px;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: transparent;
+/* LOGOS SECTION */
+
+.about_us-component .logos-section {
+    padding-top: 25px;
 }
 
+/* LOGOS SECTION */
+
 @media screen and (width <=991px) {
-    .more_about-page .section-heading {
-        font-size: 140px;
+    .about_us-component .more_about-page {
+        padding-top: 0;
     }
 
-    .more_about-page .text-heading {
-        padding: 170px 0 0 0 !important;
+    .about_us-component .more_about-page .section-heading {
+        display: none;
     }
 
-    .more_about-page .text-body {
+    .about_us-component .more_about-page .text-heading {
+        padding: 100px 0 0 0 !important;
+    }
+
+    .about_us-component .more_about-page .text-body {
         padding: 0;
-    }
-
-    .more_about-page .desc-container {
-        padding-bottom: 175px;
     }
 }

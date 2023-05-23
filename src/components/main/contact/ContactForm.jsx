@@ -27,7 +27,7 @@ const ContactForm = () => {
                         placeholder="Tell us about your project"
                     />
                 </Form.Group>
-                <div className="text-center">
+                <div className="text-center text-md-start">
                     <button
                         type="submit"
                         onClick={handleSubmit}

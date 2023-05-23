@@ -10,7 +10,7 @@ const Header = () => {
                     <div className="row">
                         <div className="col-xl-6 col-lg-7 header-wraper mb-md-5 mb-lg-0 mt-md-0 d-flex flex-column justify-content-center">
                             <h1 className="text-md-center text-lg-start text-heading fs-42 lh-50 pt-5 pt-lg-0">
-                                Creative Solutions <br /> for your Complex Ideas!
+                                Creative Solutions <br /> For Your Complex Ideas!
                             </h1>
                             <p className="text-md-center text-lg-start hero-body">
                                 Bringing people together under your brand, with your content,
