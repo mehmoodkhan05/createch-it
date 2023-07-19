@@ -42,6 +42,7 @@
 
 @media screen and (width <=575px) {
     .portfolio-section {
+        margin-top: 100px;
         padding-top: 60px;
         background: url(/src/assets/bg-mobile.jpg) no-repeat;
         background-size: cover;
